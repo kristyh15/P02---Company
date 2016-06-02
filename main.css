@@ -1,0 +1,227 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+
+body {
+  font-family: Brandon Grotesque, Adobe Devangari, Arial, sans-serif; 
+  padding: 2rem;
+  background-color: #FFFFFF;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 0.15em solid #333;
+}
+
+section h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+nav {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 0.15em solid #333;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+ul.citations {
+  margin-left: 0.25em;
+  padding-left: 0.25em;
+}
+
+ul.citations li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 1em;
+}
+
+ul.citations li strong {
+  font-weight: normal;
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav { /*refer to the .buttom-nav class in html*/
+  display: inline-block;
+  padding: 0.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
+  color: #202021; /*button text color*/
+  background-color: #f9f9fa; /*button background color*/
+  border-radius: 5em; /*rounding button corners*/
+  text-decoration: none; /*setting to none removes underline from texts*/
+  -webkit-transition: background-color 0.35s ease-out; /*how fast the background color of the button changes to green (#818476) on mouse hover*/
+  transition: background-color 0.35s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus { /*comma specifies the two states we want; the two states here are hover and focus*/
+  color: #f9f9fa; /*change button text color to #f9f9fa on mouse hover*/
+  background-color: #818476; /*change the button background color to #818476 on mouse hover*/
+}
+
+/*Styling for the in text link*/
+/*.in-text-link {
+
+}*/
+
+/* Styling for the submit/reset button */
+.button-submit { /*refer to the .buttom-submit class in html*/
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #202021;
+  background-color: #f9f9fa;
+  border-radius: 5em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.35s ease-out;
+  transition: background-color 0.35s ease-out;
+}
+
+.button-submit:hover, .button-submit:focus {
+  color: #f9f9fa;
+  background-color: #818476;
+}
+
+/* Styling for the text input field */
+form {
+  display: inline-block;
+  width: 150px;
+  height: 200px;
+  background-color: #f9f9fa;
+  padding:1.15em;
+}
+
+label {
+  display: block;
+}
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+/*Styling for the three levels of headings*/
+.heading1 {
+  font-size: 2.75rem;
+  font-weight: bolder;
+  color: #202021;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.heading2 {
+  font-size: 2.25rem;
+  font-weight: bolder;
+  color: #202021;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.heading3 {
+  font-size: 1.75rem;
+  font-weight: bolder;
+  color: #202021;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/*Styling for paragraph*/
+.paragraph {
+  max-width: 30rem; /*line length*/
+  color: #202021;
+}
+
+/*Styling for unordered list*/
+.ulist {
+  color: #202021;
+}
+
+/*Styling for ordered list*/
+.olist {
+  color: #202021;
+}
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+/*Styling for main navigation bar*/
+.nav-main {
+  color: #818476; /*main navigation text color is #818476*/
+  margin-right: 0.5rem;
+}
+
+.nav-main:hover, .nav-main:focus{
+  text-decoration: none; /*do not underline text on mouse hover*/
+}
+
+/*Styling for product listing*/
+.prod-list {
+  display: flex;
+  flex-wrap:wrap; /*line length in caption is no longer than the picture*/
+  max-width: 50%; /*maximum width of the image is 50% of the original size of the image*/
+  color: #202021; /*text color*/
+  text-decoration: none; 
+}
+
+img {
+  max-width: 100%;
+  height: auto; /*automatically adjust height according to width to constrain proportions of image*/
+}
+
+/*Styling for grid*/
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto; /*automatically adjust height according to width to constrain proportions of image*/
+  padding-top: 1.75rem; /*add padding above image*/
+}
+
+
+
+
+
+
+
+
+
+
+
