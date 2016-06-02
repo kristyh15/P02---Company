@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Style Guide</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <h1>P01 - Style Guide</h1>
+
+    <p>A style guide for Spoke, a bicycle company targeted towards leisure riders.</p>
+
+
+    <nav>
+      
+      <p>
+        On this page:
+      </p>
+      <ul>
+        <li>
+          <a href="#interactive_elements">Interactive Elements</a>
+        </li>
+        <li>
+          <a href="#text_elements">Text Elements</a>
+        </li>
+        <li>
+          <a href="#combined_elements">Combined Elements</a>
+        </li>
+      </ul>
+
+      <p>Other pages:</p>
+      <ul>
+        <li><a href="Final_User-flow.html">Final User Flow</a>
+        <li><a href="Style_guide.html">Style Guide</a>
+        <li><a href="Citations.html">Citations</a>      
+      </ul>
+
+    </nav>
+
+
+
+    <!-- START INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+    <h2> Interactive Elements Section: </h2>
+      <!-- Default Button styling -->
+      <section>
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+       		<p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        	<code>
+        		&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt; <!--&lt; is an open bracket <, while &gt; is a close bracket > -->
+        	</code> 
+
+        <h3>Rendered element:</h3>
+        	<a class="button-nav" href="#">Default Button</a> <!--refer to .button-nav in CSS-->
+      </section>
+
+    <!-- In-text link --> 
+    <!--  <section>
+        <h2>In-text link</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.in-text-link</p>
+
+        <h3>Sample code:</h3>
+        <code> </code>
+
+        <h3>Rendered element:</h3>
+        <p>This is an example of an in-text link that goes to the citations page.</p>
+      </section> -->
+
+      <!-- Submit / Reset Buttons -->
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+
+        <h3>CSS selector:</h3>
+        	<p>.button-submit</p>
+
+        <h3>Sample code:</h3>
+        	<code>
+        		&lt;a href="#" class="button"&gt;Submit Button&lt;/a&gt;
+        	</code> 
+
+        <h3>Rendered element:</h3>
+       		<a class="button-submit" href="#">Submit</a> <!--refer to .button-submit in CSS-->
+      </section>
+
+      <!-- Text Input Field -->
+      <section>
+        <h2>Text Input Field</h2>
+
+        <h3>CSS selector:</h3>
+       		<p>form { }</p>
+
+        <h3>Sample code:</h3>
+        	<code> 
+        		&lt;form method="post" action="#"&gt;
+       				&lt;label for="form-firstname"&gt;First Name:&lt;/label&gt;
+       				&lt;input type="text" id="form-firstname"&gt;
+       				&lt;label for="form-lastname"&gt;Last Name:&lt;/label&gt;
+       				&lt;input type="text" id="form-lastname"&gt;
+       				&lt;label for="form-emailaddress"&gt;Email Address:&lt;/label&gt;
+       				&lt;input type="text" id="form-emailaddress"&gt;
+       				&lt;label for="form-message"&gt;Message:&lt;/label&gt;
+       				&lt;textarea id="form-message"&gt;&lt;/textarea&gt;
+       			&lt;/form>
+       		</code>
+
+        <h3>Rendered element:</h3>
+       	<form method="post" action="#">
+       		<!--first name-->
+       		<label for="form-firstname">First Name:</label>
+       		<input type="text" id="form-firstname">
+       		<!--last name-->
+       		<label for="form-lastname">Last Name:</label>
+       		<input type="text" id="form-lastname">
+       		<!--email address-->
+       		<label for="form-emailaddress">Email Address:</label>
+       		<input type="text" id="form-emailaddress">
+       		<!--message-->
+       		<label for="form-message">Message:</label>
+       		<textarea id="form-message"></textarea>
+       	</form>
+
+      </section>
+
+    </section>
+    <!-- // END INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- START TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+    <h2> Text Elements Section: </h2>
+
+      <!-- Headings -->
+      <section>
+        <h2>Headings</h2>
+
+        <h3>CSS selector:</h3>
+       		<p>.heading1</p>
+       		<p>.heading2</p>
+       		<p>.heading3</p>
+
+        <h3>Sample code:</h3>
+        	<code>
+        		&lt;p href="#" class="heading1"&gt;Heading1&lt;/p&gt;
+        		&lt;p href="#" class="heading2"&gt;Heading2&lt;/p&gt;
+        		&lt;p href="#" class="heading3"&gt;Heading3&lt;/p&gt;
+        	</code>
+
+        <h3>Rendered Element:</h3>
+        	<p class="heading1" >Heading1</p> <!--refer to .heading1 in CSS-->
+        	<p class="heading2" >Heading2</p> <!--refer to .heading2 in CSS-->
+        	<p class="heading3" >Heading3</p> <!--refer to .heading3 in CSS-->
+
+      </section>
+
+      <!-- Paragraphs -->
+      <section>
+        <h2>Paragraphs</h2>
+
+        <h3>CSS selector:</h3>
+        	<p>.paragraph</p>
+
+        <h3>Sample code:</h3>
+        	<code>
+        		&lt;p class="paragraph"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis egestas risus. Proin ut posuere lorem, auctor vehicula risus. Maecenas a risus lacinia, laoreet nisl sit amet, fringilla tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc urna ante, congue eu eros vel, elementum feugiat mi.&lt;/p&gt;
+        	</code>
+
+        <h3>Rendered Element:</h3>
+        	<p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis egestas risus. Proin ut posuere lorem, auctor vehicula risus. Maecenas a risus lacinia, laoreet nisl sit amet, fringilla tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc urna ante, congue eu eros vel, elementum feugiat mi.</p>
+
+      </section>
+
+      <!-- Bulleted Lists -->
+      <section>
+        <h2>Bulleted Lists</h2>
+
+        <h3>CSS selector:</h3>
+        	<p>.ulist</p>
+
+        <h3>Sample code:</h3>
+        	<code>
+        		&lt;ul class="ulist"&gt;
+					&lt;li&gt; an item on this list &lt;/li&gt;
+        			&lt;li&gt; an item on this list &lt;/li&gt;
+        			&lt;li&gt; an item on this list &lt;/li&gt;
+        		&lt;/ul&gt;
+        	</code>
+
+        <h3>Rendered Element:</h3>
+        	<ul class="ulist"> 
+				<li> an item on this list </li>
+        		<li> an item on this list </li>
+        		<li> an item on this list </li>
+        	</ul>
+      </section>
+
+      <!-- Numbered Lists -->
+      <section>
+        <h2>Numbered Lists</h2>
+
+        <h3>CSS selector:</h3>
+        	<p>.olist</p>
+
+        <h3>Sample code:</h3>
+        	<code>
+        		&lt;ol class="olist"&gt;
+					&lt;li&gt; first item on this list &lt;/li&gt;
+        			&lt;li&gt; second item on this list &lt;/li&gt;
+        			&lt;li&gt; third item on this list &lt;/li&gt;
+        		&lt;/ol&gt;
+        	</code>
+
+        <h3>Rendered Element:</h3>
+       		<ol class="olist"> 
+				<li> first item on this list </li>
+        		<li> second item on this list </li>
+        		<li> third item on this list </li>
+        	</ol>
+      </section>
+
+    </section>
+    <!-- // END TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- START COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+    <h2> Combined Elements Section: </h2>
+
+      <!-- Main Navigation -->
+      <section>
+        <h2>Main Navigation</h2>
+
+        <h3>CSS selector:</h3>
+        	<p>.nav-main</p>
+
+        <h3>Sample code:</h3>
+        	<code>
+        		&lt;a href="#" class="nav-main"&gt;Products&lt;/a&gt;
+        		&lt;a href="#" class="nav-main"&gt;Plan Trip&lt;/a&gt;
+        		&lt;a href="#" class="nav-main"&gt;Rentals&lt;/a&gt;
+        		&lt;a href="#" class="nav-main"&gt;Account&lt;/a&gt;
+        	</code>
+
+        <h3>Rendered Element:</h3>
+        	<a href="#" class="nav-main">Products</a>
+        	<a href="#" class="nav-main">Plan Trip</a>
+        	<a href="#" class="nav-main">Rentals</a>
+        	<a href="#" class="nav-main">Account</a>
+      </section>
+
+      <!-- Product Listing -->
+      <section>
+        <h2>Product Listing</h2>
+
+        <h3>CSS selector:</h3>
+        	<p>.prod-list</p>
+
+        <h3>Sample code:</h3>
+        	<code>
+        		&lt;a href="#" class="prod-list"&gt;
+        			&lt;figure&gt; <!--only wrap with a figure tag if you have a caption with your image-->
+        				&lt;h3&gt;&lt;strong>Olin Bike - $190&lt;/strong>&lt;/h3&gt;
+	    				&lt;img src="img/bike.jpg" alt="Olin Bike"&gt;
+	    				&lt;figcaption&gt;The Olin bike is perfect for a leisure rider's daily commute. Its strong, lightweight aluminum frame makes it low-maintenance and easy to store.&lt;/figcaption&gt;
+	    			&lt;/figure&gt;
+	    		&lt;/a>
+        	</code>
+
+        <h3>Rendered Element:</h3>
+      	 	<a href="#" class="prod-list">
+        		<figure> <!--only wrap with a figure tag if you have a caption with your image-->
+					<h3><strong>Olin Bike - $190</strong></h3>
+	    			<img src="img/bike_olin.jpg" alt="Olin Bike"> 
+	    			<figcaption>The Olin bike is perfect for a leisure rider's daily commute. Its strong, lightweight aluminum frame makes it low-maintenance and easy to store.</figcaption>
+	    		</figure>
+
+	    		<figure> 
+					<h3><strong>Nevil Bike - $210</strong></h3>
+	    			<img src="img/bike_nevil.jpg" alt="Nevil Bike"> 
+	    			<figcaption>The Nevil bike is perfect for leisure riders who prefer to use thick handle bars.</figcaption>
+	    		</figure>
+	    	</a>
+      </section>
+
+      <!-- Grid -->
+
+      <section>
+        <h2>Grid</h2>
+
+        <h3>Rendered Element:</h3>
+        <p class="grid"></p>
+        <figure>
+          <img src="img/grid_4K.jpg" alt="4K grid">
+          <figcaption>9 column grid</figcaption>
+        </figure>
+        <figure>
+          <img src="img/grid_smartphone.jpg" alt="Smartphone grid">
+          <figcaption>3 column grid</figcaption>
+        </figure>
+        <figure>
+          <img src="img/grid_smartwatch.jpg" alt="Smartwatch grid">
+          <figcaption>2 column grid</figcaption>
+        </figure>
+      </section>
+
+
+    </section>
+    <!-- // END COMBINED ELEMENTS SECTION -->
+
+
+  </body>
+</html>
