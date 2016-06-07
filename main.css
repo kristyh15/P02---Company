@@ -88,9 +88,10 @@ cite {
 }
 
 /*Styling for the in text link*/
-/*.in-text-link {
-
-}*/
+.in-text-link {
+  color: #202021;
+  text-decoration: none;
+}
 
 /* Styling for the submit/reset button */
 .button-submit { /*refer to the .buttom-submit class in html*/
