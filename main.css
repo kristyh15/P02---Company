@@ -4,7 +4,7 @@
 */
 
 body {
-  font-family: Brandon Grotesque, Adobe Devangari, Arial, sans-serif; 
+  font-family: Brandon Grotesque, Adobe Devangari, sans-serif; 
   padding: 2rem;
   background-color: #FFFFFF;
 }
@@ -155,6 +155,8 @@ label {
 
 /*Styling for paragraph*/
 .paragraph {
+  font-family: Adobe Devangari; /* font for this class is Adobe Devangari */
+  font-size: 0.85rem; 
   max-width: 30rem; /*line length*/
   color: #202021;
 }
