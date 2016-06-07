@@ -73,6 +73,7 @@ cite {
 /* Styling for the navigation button */
 .button-nav { /*refer to the .buttom-nav class in html*/
   display: inline-block;
+  margin: 0em;
   padding: 0.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
   color: #202021; /*button text color*/
   background-color: #f9f9fa; /*button background color*/
@@ -82,8 +83,7 @@ cite {
 }
 
 .button-nav:hover, .button-nav:focus { /*comma specifies the two states we want; the two states here are hover and focus*/
-  color: #f9f9fa; /*change button text color to #f9f9fa on mouse hover*/
-  background-color: #818476; /*change the button background color to #818476 on mouse hover*/
+  background-color: #EEEDED; /*change the button background color to #818476 on mouse hover*/
 }
 
 /*Styling for the in text link*/
@@ -219,14 +219,9 @@ input {
   COMBINED ELEMENTS -------------------
 */
 
-/*Styling for main navigation bar*/
 .nav-main {
-  color: #818476; /*main navigation text color is #818476*/
-  margin-right: 0.5rem;
-}
-
-.nav-main:hover, .nav-main:focus{
-  text-decoration: none; /*do not underline text on mouse hover*/
+  background-color: #f9f9fa;
+  margin: 0em; 
 }
 
 /*Styling for product listing*/
