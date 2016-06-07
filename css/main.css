@@ -4,7 +4,7 @@
 */
 
 body {
-  font-family: Brandon Grotesque, Adobe Devangari, Arial, sans-serif; 
+  font-family: Brandon Grotesque, Adobe Devangari, sans-serif; 
   padding: 2rem;
   background-color: #FFFFFF;
 }
@@ -177,6 +177,41 @@ input {
 /*Styling for ordered list*/
 .olist {
   color: #202021;
+}
+
+
+/* 
+  COLOUR ELEMENTS -------------------
+*/
+
+.offwhiteColor {
+  display:inline-block;
+  margin: 0em;
+  padding: 50px 0;
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  background-color: #f9f9fa
+}
+
+.darkgreyColor {
+  display:inline-block;
+  margin: 0em;
+  padding: 50px 0;
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  background-color: #202021
+}
+
+.greenColor {
+  display:inline-block;
+  margin: 0em;
+  padding: 50px 0;
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  background-color: #818476
 }
 
 
