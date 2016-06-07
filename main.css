@@ -127,8 +127,8 @@ label {
 
 /*Styling for the three levels of headings*/
 .heading1 {
-  font-size: 2.75rem;
-  font-weight: bolder;
+  font-size: 2.2rem;
+  font-weight: bold;
   color: #202021;
   margin-right: 1.5rem;
   margin-top: 1rem;
@@ -136,8 +136,8 @@ label {
 }
 
 .heading2 {
-  font-size: 2.25rem;
-  font-weight: bolder;
+  font-size: 1.8rem;
+  font-weight: bold;
   color: #202021;
   margin-right: 1.5rem;
   margin-top: 1rem;
@@ -145,8 +145,8 @@ label {
 }
 
 .heading3 {
-  font-size: 1.75rem;
-  font-weight: bolder;
+  font-size: 1.3rem;
+  font-weight: bold;
   color: #202021;
   margin-right: 1.5rem;
   margin-top: 1rem;
@@ -155,7 +155,7 @@ label {
 
 /*Styling for paragraph*/
 .paragraph {
-  font-family: Adobe Devangari; /* font for this class is Adobe Devangari */
+  font-family: Adobe Devangari; /*font for this paragraph class is Adobe Devangari*/
   font-size: 0.85rem; 
   max-width: 30rem; /*line length*/
   color: #202021;
