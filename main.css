@@ -70,44 +70,40 @@ cite {
   INTERACTIVE ELEMENTS -------------------
 */
 
-/* Styling for the navigation button */
-.button-nav { /*refer to the .buttom-nav class in html*/
+/* Styling for buttons with fill */
+.button-confirm, .button-checkout, .button-placeorder { /*refer to classes .button-submit/checkout/placeorder/addcart in html*/
   display: inline-block;
   padding: 0.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
-  color: #202021; /*button text color*/
-  background-color: #f9f9fa; /*button background color*/
+  color: #f9f9fa; /*button text color is off-white*/
+  background-color: #818476; /*button background color is green*/
   border-radius: 5em; /*rounding button corners*/
   text-decoration: none; /*setting to none removes underline from texts*/
   -webkit-transition: background-color 0.35s ease-out; /*how fast the background color of the button changes to green (#818476) on mouse hover*/
   transition: background-color 0.35s ease-out;
 }
 
-.button-nav:hover, .button-nav:focus { /*comma specifies the two states we want; the two states here are hover and focus*/
-  color: #f9f9fa; /*change button text color to #f9f9fa on mouse hover*/
-  background-color: #818476; /*change the button background color to #818476 on mouse hover*/
+/*Styline for buttons with outline*/
+.button-addcart {
+  display: inline-block;
+  padding: 0.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
+  color: #818476; /*button text color is green*/
+  background-color: #f9f9fa; /*button background color is off-white*/
+  border-style: solid; /*button border is a solid line on all four sides*/
+  border-color: #818476; /*button border color is green*/
+  border-radius: 5em; /*rounding button corners*/
+  text-decoration: none; /*setting to none removes underline from texts*/
+  -webkit-transition: background-color 0.35s ease-out; /*how fast the background color of the button changes to green (#818476) on mouse hover*/
+  transition: background-color 0.35s ease-out;
+}
+
+.button-confirm:hover, .button-checkout:focus, .button-checkout:hover, .button-checkout:focus, .button-placeorder:focus, .button-placeorder:hover, .button-addcart:focus, .button-addcart:hover { /*comma specifies the two states we want; the two states here are hover and focus*/
+  opacity: 0.7; /* change button opacity to 70% on mouse hover */
 }
 
 /*Styling for the in text link*/
 .in-text-link {
   color: #202021;
   text-decoration: none;
-}
-
-/* Styling for the submit/reset button */
-.button-submit { /*refer to the .buttom-submit class in html*/
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  color: #202021;
-  background-color: #f9f9fa;
-  border-radius: 5em;
-  text-decoration: none;
-  -webkit-transition: background-color 0.35s ease-out;
-  transition: background-color 0.35s ease-out;
-}
-
-.button-submit:hover, .button-submit:focus {
-  color: #f9f9fa;
-  background-color: #818476;
 }
 
 /* Styling for the text input field */
