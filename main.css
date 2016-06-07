@@ -102,7 +102,7 @@ cite {
   text-decoration: none;
 }
 
-.in-text-link, .button-confirm:hover, .button-checkout:focus, .button-checkout:hover, .button-checkout:focus, .button-placeorder:focus, .button-placeorder:hover, .button-addcart:focus, .button-addcart:hover { /*comma specifies the two states we want; the two states here are hover and focus*/
+.in-text-link:hover, .in-text-link:focus, .button-confirm:hover, .button-checkout:focus, .button-checkout:hover, .button-checkout:focus, .button-placeorder:focus, .button-placeorder:hover, .button-addcart:focus, .button-addcart:hover { /*comma specifies the two states we want; the two states here are hover and focus*/
   opacity: 0.7; /* change in-text link and button opacity to 70% on mouse hover */
 }
 
