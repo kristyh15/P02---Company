@@ -76,7 +76,6 @@ cite {
   padding: 0.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
   color: #202021; /*button text color*/
   background-color: #f9f9fa; /*button background color*/
-  border-radius: 5em; /*rounding button corners*/
   text-decoration: none; /*setting to none removes underline from texts*/
   -webkit-transition: background-color 0.35s ease-out; /*how fast the background color of the button changes to green (#818476) on mouse hover*/
   transition: background-color 0.35s ease-out;
@@ -113,13 +112,22 @@ cite {
 form {
   display: inline-block;
   width: 150px;
-  height: 200px;
+  height: 230px;
   background-color: #f9f9fa;
   padding:1.15em;
 }
 
 label {
   display: block;
+}
+
+input {
+  display: inline-block;
+  width: 130px;
+  height: 20px;
+  color: #000;
+  margin-bottom: .75em;
+  padding-left: 0.5em;
 }
 
 
