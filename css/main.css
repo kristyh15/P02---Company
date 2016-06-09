@@ -70,6 +70,22 @@ cite {
   INTERACTIVE ELEMENTS -------------------
 */
 
+/* Styling for the navigation button */
+.button-nav { /*refer to the .buttom-nav class in html*/
+  display: inline-block;
+  margin: 0em;
+  padding: 0.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
+  color: #202021; /*button text color*/
+  background-color: #f9f9fa; /*button background color*/
+  text-decoration: none; /*setting to none removes underline from texts*/
+  -webkit-transition: background-color 0.35s ease-out; /*how fast the background color of the button changes to green (#818476) on mouse hover*/
+  transition: background-color 0.35s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus { /*comma specifies the two states we want; the two states here are hover and focus*/
+  background-color: #EEEDED; /*change the button background color to #818476 on mouse hover*/
+}
+
 /* Styling for buttons with fill */
 .button-confirm, .button-checkout, .button-placeorder { /*refer to classes .button-submit/checkout/placeorder/addcart in html*/
   display: inline-block;
@@ -111,7 +127,7 @@ cite {
 form {
   display: inline-block;
   width: 150px;
-  height: 200px;
+  height: 230px;
   background-color: #f9f9fa;
   padding:1.15em;
 }
@@ -119,6 +135,16 @@ form {
 label {
   display: block;
 }
+
+input {
+  display: inline-block;
+  width: 130px;
+  height: 20px;
+  color: #000;
+  margin-bottom: .75em;
+  padding-left: 0.5em;
+}
+
 
 
 /* 
@@ -173,17 +199,51 @@ label {
 
 
 /* 
+  COLOUR ELEMENTS -------------------
+*/
+
+.offwhiteColor {
+  display:inline-block;
+  margin: 0em;
+  padding: 50px 0;
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  background-color: #f9f9fa
+}
+
+.darkgreyColor {
+  display:inline-block;
+  margin: 0em;
+  padding: 50px 0;
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  background-color: #202021
+}
+
+.greenColor {
+  display:inline-block;
+  margin: 0em;
+  padding: 50px 0;
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  background-color: #818476
+}
+
+
+
+
+
+/* 
   COMBINED ELEMENTS -------------------
 */
 
 /*Styling for main navigation bar*/
 .nav-main {
-  color: #818476; /*main navigation text color is #818476*/
-  margin-right: 0.5rem;
-}
-
-.nav-main:hover, .nav-main:focus{
-  text-decoration: none; /*do not underline text on mouse hover*/
+  background-color: #f9f9fa;
+  margin: 0em; 
 }
 
 /*Styling for product listing*/
