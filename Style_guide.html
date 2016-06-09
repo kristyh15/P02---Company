@@ -23,6 +23,9 @@
         On this page:
       </p>
       <ul>
+         <li>
+          <a href="#colours">Colour Palette</a>
+        </li>
         <li>
           <a href="#interactive_elements">Interactive Elements</a>
         </li>
@@ -43,11 +46,49 @@
 
     </nav>
 
+     <!-- START COLOURS SECTION // -->
+    <section id="colours">
+      <section>
 
+        <h2> Colour Palette: </h2>
+           
+          <div class="offwhiteColor"> 
+            <h3>Off White: #f9f9fa</h3>
+            <p>website background</p>
+          </div> 
+
+          <div class="darkgreyColor" style="color: #ffffff"> 
+            <h3>Dark Grey: #202021</h3>
+            <p>text colour</p>
+          </div> 
+
+          <div class="greenColor" style="color: #ffffff"> 
+            <h3>Olive Green: #818476</h3>
+            <p>accent colour</p>
+          </div> 
+
+      </section>
+    </section>
+    <!-- END OF COLOURS SECTION // -->
 
     <!-- START INTERACTIVE ELEMENTS SECTION // -->
 
-      
+      <!-- Navigation Button -->
+      <section>
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+          <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+          <code>
+            &lt;a href="#" class="button"&gt;Navigation Button&lt;/a&gt; <!--&lt; is an open bracket <, while &gt; is a close bracket > -->
+          </code> 
+
+        <h3>Rendered element:</h3>
+          <a class="button-nav" href="#">Navigation Button</a> <!--refer to .button-nav in CSS-->
+      </section>
+
       <!-- In-text link --> 
       <section>
         <h2>In-text link</h2>
@@ -156,43 +197,58 @@
       </div>
     </section>
 
-    <!-- Text Input Field -->
+    <!-- Form -->
+      <section>
+        <h2>Form Input Field</h2>
+
+        <h3>CSS selector:</h3>
+          <p>form { }</p>
+
+        <h3>Sample code:</h3>
+          <code> 
+            &lt;form method="post" action="#"&gt;
+              &lt;label for="form-firstname"&gt;First Name:&lt;/label&gt;
+              &lt;input type="text" id="form-firstname"&gt;
+              &lt;label for="form-lastname"&gt;Last Name:&lt;/label&gt;
+              &lt;input type="text" id="form-lastname"&gt;
+              &lt;label for="form-emailaddress"&gt;Email Address:&lt;/label&gt;
+              &lt;input type="text" id="form-emailaddress"&gt;
+              &lt;label for="form-message"&gt;Message:&lt;/label&gt;
+              &lt;textarea id="form-message"&gt;&lt;/textarea&gt;
+            &lt;/form>
+          </code>
+
+        <h3>Rendered element:</h3>
+        <form method="post" action="#">
+          <!--first name-->
+          <label for="form-firstname">First Name:</label>
+          <input type="text" id="form-firstname">
+          <!--last name-->
+          <label for="form-lastname">Last Name:</label>
+          <input type="text" id="form-lastname">
+          <!--email address-->
+          <label for="form-emailaddress">Email Address:</label>
+          <input type="text" id="form-emailaddress">
+          <!--message-->
+          <label for="form-message">Message:</label>
+          <textarea id="form-message"></textarea>
+        </form>
+
+      </section>
+
       <section>
         <h2>Text Input Field</h2>
 
         <h3>CSS selector:</h3>
-       		<p>form { }</p>
+          <p>input { }</p>
 
         <h3>Sample code:</h3>
-        	<code> 
-        		&lt;form method="post" action="#"&gt;
-       				&lt;label for="form-firstname"&gt;First Name:&lt;/label&gt;
-       				&lt;input type="text" id="form-firstname"&gt;
-       				&lt;label for="form-lastname"&gt;Last Name:&lt;/label&gt;
-       				&lt;input type="text" id="form-lastname"&gt;
-       				&lt;label for="form-emailaddress"&gt;Email Address:&lt;/label&gt;
-       				&lt;input type="text" id="form-emailaddress"&gt;
-       				&lt;label for="form-message"&gt;Message:&lt;/label&gt;
-       				&lt;textarea id="form-message"&gt;&lt;/textarea&gt;
-       			&lt;/form>
-       		</code>
+          <code>
+              &lt;input type="text" id="form-name" placeholder="Promo Code"&gt;
+          </code>
 
         <h3>Rendered element:</h3>
-       	<form method="post" action="#">
-       		<!--first name-->
-       		<label for="form-firstname">First Name:</label>
-       		<input type="text" id="form-firstname">
-       		<!--last name-->
-       		<label for="form-lastname">Last Name:</label>
-       		<input type="text" id="form-lastname">
-       		<!--email address-->
-       		<label for="form-emailaddress">Email Address:</label>
-       		<input type="text" id="form-emailaddress">
-       		<!--message-->
-       		<label for="form-message">Message:</label>
-       		<textarea id="form-message"></textarea>
-       	</form>
-
+          <input type="text" id="form-firstname" placeholder="Promo Code">
       </section>
 
     </section>
@@ -299,26 +355,32 @@
     <section id="combined_elements">
     <h2> Combined Elements Section: </h2>
 
-      <!-- Main Navigation -->
+       <!-- Main Navigation -->
       <section>
         <h2>Main Navigation</h2>
 
         <h3>CSS selector:</h3>
-        	<p>.nav-main</p>
+          <p>.nav-main</p>
 
         <h3>Sample code:</h3>
-        	<code>
-        		&lt;a href="#" class="nav-main"&gt;Products&lt;/a&gt;
-        		&lt;a href="#" class="nav-main"&gt;Plan Trip&lt;/a&gt;
-        		&lt;a href="#" class="nav-main"&gt;Rentals&lt;/a&gt;
-        		&lt;a href="#" class="nav-main"&gt;Account&lt;/a&gt;
-        	</code>
+          <code>
+            &lt;div class="nav-main"&gt;
+              &lt;a class="button-nav" href="#"&gt;Logo&lt;/a&gt;
+              &lt;a class="button-nav" style="float: right" href="#"&gt;Cart&lt;/a&gt;
+              &lt;a class="button-nav" style="float: right" href="#"&gt;About Us&lt;/a&gt;
+              &lt;a class="button-nav" style="float: right" href="#"&gt;Plan Trip&lt;/a&gt;
+              &lt;a class="button-nav" style="float: right" href="#"&gt;Products&lt;/a&gt;
+            &lt;/div&gt;
+          </code>
 
         <h3>Rendered Element:</h3>
-        	<a href="#" class="nav-main">Products</a>
-        	<a href="#" class="nav-main">Plan Trip</a>
-        	<a href="#" class="nav-main">Rentals</a>
-        	<a href="#" class="nav-main">Account</a>
+          <div class="nav-main">
+            <a class="button-nav" href="#">Logo</a>
+            <a class="button-nav" style="float: right" href="#">Cart</a>
+            <a class="button-nav" style="float: right" href="#">About Us</a> 
+            <a class="button-nav" style="float: right" href="#">Plan Trip</a> 
+            <a class="button-nav" style="float: right" href="#">Products</a> 
+          </div>
       </section>
 
       <!-- Product Listing -->
