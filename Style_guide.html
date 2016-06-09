@@ -4,7 +4,7 @@
   <head>
 
     <meta charset="utf-8">
-    <title>P02 - Style Guide</title>
+    <title>P01 - Style Guide</title>
 
     <link href="css/main.css" rel="stylesheet">
 
@@ -24,13 +24,10 @@
       </p>
       <ul>
         <li>
-          <a href="#colours">Colour Palette</a>
-        </li>
-        <li>
           <a href="#interactive_elements">Interactive Elements</a>
         </li>
         <li>
-          <a href="#text_elements">Text Elements</a> 
+          <a href="#text_elements">Text Elements</a>
         </li>
         <li>
           <a href="#combined_elements">Combined Elements</a>
@@ -47,84 +44,121 @@
     </nav>
 
 
-     <!-- START COLOURS SECTION // -->
-    <section id="colours">
-      <section>
-
-        <h2> Colour Palette: </h2>
-           
-          <div class="offwhiteColor"> 
-            <h3>Off White: #f9f9fa</h3>
-            <p>website background</p>
-          </div> 
-
-          <div class="darkgreyColor" style="color: #ffffff"> 
-            <h3>Dark Grey: #202021</h3>
-            <p>text colour</p>
-          </div> 
-
-          <div class="greenColor" style="color: #ffffff"> 
-            <h3>Olive Green: #818476</h3>
-            <p>accent colour</p>
-          </div> 
-
-      </section>
-    </section>
-    <!-- END OF COLOURS SECTION // -->
-
 
     <!-- START INTERACTIVE ELEMENTS SECTION // -->
-    <section id="interactive_elements">
-    <h2> Interactive Elements Section: </h2>
-      <!-- Default Button styling -->
+
+      
+      <!-- In-text link --> 
       <section>
-        <h2>Navigation Button</h2>
-
-        <h3>CSS selector:</h3>
-       		<p>.button-nav</p>
-
-        <h3>Sample code:</h3>
-        	<code>
-        		&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt; <!--&lt; is an open bracket <, while &gt; is a close bracket > -->
-        	</code> 
-
-        <h3>Rendered element:</h3>
-        	<a class="button-nav" href="#">Default Button</a> <!--refer to .button-nav in CSS-->
-      </section>
-
-    <!-- In-text link --> 
-    <!--  <section>
         <h2>In-text link</h2>
-
         <h3>CSS selector:</h3>
         <p>.in-text-link</p>
-
-        <h3>Sample code:</h3>
-        <code> </code>
-
+        <code>
+            &lt;a class="in-text-link" href="#"&gt;In-text Link&lt;/a&gt;
+          </code>
         <h3>Rendered element:</h3>
-        <p>This is an example of an in-text link that goes to the citations page.</p>
-      </section> -->
-
-      <!-- Submit / Reset Buttons -->
-      <section>
-        <h2>Submit/Reset Buttons</h2>
-
-        <h3>CSS selector:</h3>
-        	<p>.button-submit</p>
-
-        <h3>Sample code:</h3>
-        	<code>
-        		&lt;a href="#" class="button"&gt;Submit Button&lt;/a&gt;
-        	</code> 
-
-        <h3>Rendered element:</h3>
-       		<a class="button-submit" href="#">Submit</a> <!--refer to .button-submit in CSS-->
+        <a class="in-text-link" href="#">In-text Link </a>
       </section>
 
-      <!-- Form -->
+     <!-- Confirm Button -->
       <section>
-        <h2>Form Input Field</h2>
+        <h2>Confirm Button</h2>
+
+        <h3>CSS selector:</h3>
+          <p>.button-confirm</p>
+
+        <h3>Sample code:</h3>
+          <code>
+            &lt;a href="#" class="button-confirm"&gt;Confirm&lt;/a&gt;
+          </code> 
+
+        <h3>Rendered element:</h3>
+          <a class="button-confirm" href="#">Confirm</a> <!--refer to .button-confirm in CSS-->
+      </section>
+
+      <!-- Proceed to Checkout Button-->
+      <section>
+        <h2>Proceed to Checkout Button</h2>
+
+        <h3>CSS selector:</h3>
+          <p>.button-checkout</p>
+
+        <h3>Sample code:</h3>
+          <code>
+            &lt;a href="#" class="button-checkout"&gt;Proceed to Checkout&lt;/a&gt;
+          </code> 
+
+        <h3>Rendered element:</h3>
+          <a class="button-checkout" href="#">Proceed to Checkout</a> <!--refer to .button-checkout in CSS-->
+      </section>
+
+      <!-- Place Order Button-->
+      <section>
+        <h2>Place Order Button</h2>
+
+        <h3>CSS selector:</h3>
+          <p>.button-placeorder</p>
+
+        <h3>Sample code:</h3>
+          <code>
+            &lt;a href="#" class="button-placeorder"&gt;Place Order&lt;/a&gt;
+          </code> 
+
+        <h3>Rendered element:</h3>
+          <a class="button-placeorder" href="#">Place Order</a> <!--refer to .button-placeorder in CSS-->
+      </section>
+
+      <!-- Add to Cart Button-->
+      <section>
+        <h2>Add to Cart Button</h2>
+
+        <h3>CSS selector:</h3>
+          <p>.button-addcart</p>
+
+        <h3>Sample code:</h3>
+          <code>
+            &lt;a href="#" class="button-addcart"&gt;Add to Cart&lt;/a&gt;
+          </code> 
+
+        <h3>Rendered element:</h3>
+          <a class="button-addcart" href="#">Add to Cart</a> <!--refer to .button-addcart in CSS-->
+      </section>
+
+    <!-- Drop-down Menu Button -->
+    <section>
+      <h2>Drop-down Menu</h2>
+
+      <h3>CSS selector:</h3>
+        <p>.dropdown</p>
+        <p>.dropdown-button</p>
+        <p>.dropdown-content</p>
+
+      <h3>Sample Code:</h3>
+        <code>
+          &lt;div class="dropdown"&gt;
+            &lt;button class="dropdown-button"&gt;Dropdown&lt;/button&gt;
+            &lt;div class="dropdown-content"&gt;
+              &lt;a href="#">Option A&lt;/a&gt;
+              &lt;a href="#">Option B&lt;/a&gt;
+              &lt;a href="#">Option C&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        </code>
+
+      <h3>Rendered element:</h3>
+      <div class="dropdown">
+        <button class="dropdown-button">Dropdown</button>
+        <div class="dropdown-content">
+          <a href="#">Option A</a>
+          <a href="#">Option B</a>
+          <a href="#">Option C</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Text Input Field -->
+      <section>
+        <h2>Text Input Field</h2>
 
         <h3>CSS selector:</h3>
        		<p>form { }</p>
@@ -161,23 +195,9 @@
 
       </section>
 
-      <section>
-        <h2>Text Input Field</h2>
-
-        <h3>CSS selector:</h3>
-          <p>input { }</p>
-
-        <h3>Sample code:</h3>
-          <code>
-              &lt;input type="text" id="form-name" placeholder="Promo Code"&gt;
-          </code>
-
-        <h3>Rendered element:</h3>
-          <input type="text" id="form-firstname" placeholder="Promo Code">
-      </section>
-
     </section>
     <!-- // END INTERACTIVE ELEMENTS SECTION -->
+
 
 
     <!-- START TEXT ELEMENTS SECTION // -->
@@ -204,7 +224,6 @@
         	<p class="heading1" >Heading1</p> <!--refer to .heading1 in CSS-->
         	<p class="heading2" >Heading2</p> <!--refer to .heading2 in CSS-->
         	<p class="heading3" >Heading3</p> <!--refer to .heading3 in CSS-->
-
       </section>
 
       <!-- Paragraphs -->
@@ -221,7 +240,6 @@
 
         <h3>Rendered Element:</h3>
         	<p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis egestas risus. Proin ut posuere lorem, auctor vehicula risus. Maecenas a risus lacinia, laoreet nisl sit amet, fringilla tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc urna ante, congue eu eros vel, elementum feugiat mi.</p>
-
       </section>
 
       <!-- Bulleted Lists -->
@@ -234,7 +252,7 @@
         <h3>Sample code:</h3>
         	<code>
         		&lt;ul class="ulist"&gt;
-					&lt;li&gt; an item on this list &lt;/li&gt;
+					    &lt;li&gt; an item on this list &lt;/li&gt;
         			&lt;li&gt; an item on this list &lt;/li&gt;
         			&lt;li&gt; an item on this list &lt;/li&gt;
         		&lt;/ul&gt;
@@ -276,6 +294,7 @@
     <!-- // END TEXT ELEMENTS SECTION -->
 
 
+
     <!-- START COMBINED ELEMENTS SECTION // -->
     <section id="combined_elements">
     <h2> Combined Elements Section: </h2>
@@ -289,25 +308,18 @@
 
         <h3>Sample code:</h3>
         	<code>
-            &lt;div class="nav-main"&gt;
-              &lt;a class="button-nav" href="#"&gt;Logo&lt;/a&gt;
-        		  &lt;a class="button-nav" style="float: right" href="#"&gt;Cart&lt;/a&gt;
-        		  &lt;a class="button-nav" style="float: right" href="#"&gt;About Us&lt;/a&gt;
-        		  &lt;a class="button-nav" style="float: right" href="#"&gt;Plan Trip&lt;/a&gt;
-        		  &lt;a class="button-nav" style="float: right" href="#"&gt;Products&lt;/a&gt;
-            &lt;/div&gt;
+        		&lt;a href="#" class="nav-main"&gt;Products&lt;/a&gt;
+        		&lt;a href="#" class="nav-main"&gt;Plan Trip&lt;/a&gt;
+        		&lt;a href="#" class="nav-main"&gt;Rentals&lt;/a&gt;
+        		&lt;a href="#" class="nav-main"&gt;Account&lt;/a&gt;
         	</code>
 
         <h3>Rendered Element:</h3>
-          <div class="nav-main">
-            <a class="button-nav" href="#">Logo</a>
-            <a class="button-nav" style="float: right" href="#">Cart</a>
-            <a class="button-nav" style="float: right" href="#">About Us</a> 
-            <a class="button-nav" style="float: right" href="#">Plan Trip</a> 
-        	  <a class="button-nav" style="float: right" href="#">Products</a> 
-          </div>
+        	<a href="#" class="nav-main">Products</a>
+        	<a href="#" class="nav-main">Plan Trip</a>
+        	<a href="#" class="nav-main">Rentals</a>
+        	<a href="#" class="nav-main">Account</a>
       </section>
-
 
       <!-- Product Listing -->
       <section>
