@@ -112,7 +112,57 @@ cite {
   transition: background-color 0.35s ease-out;
 }
 
-/*Styling for the in text link*/
+
+/*Styling for the drop-down menu*/
+.dropdown-button {
+  display: block;
+  font-family: Brandon Grotesque;
+  font-size: 16px;
+  padding: 0.55em 0.8em;
+  color: #f9f9fa; /*button text color is off-white*/
+  background-color: #818476; /*button background color is green*/
+  border: none;
+  text-decoration: none; /*setting to none removes underline from texts*/
+}
+
+.dropdown {
+  display: block;
+}
+
+.dropdown-content {
+  display: none; /*do not display until on mouse-hover*/
+  position: absolute;
+  background-color: #f9f9fa;
+  text-decoration: none;
+}
+
+.dropdown-content a {
+  color: #202021;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*.dropdown-button:hover, .dropdown-button:focus {
+  opacity: 0.7;
+}*/
+
+.dropdown:hover .dropdown-button {
+    background-color: #e5e5e5; /*change background color of dropdown menu links on mouse-hover*/
+}
+
+
+
+/*Styling for the in-text link*/
+
 .in-text-link {
   color: #202021;
   text-decoration: none;
