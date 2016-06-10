@@ -30,7 +30,7 @@
 	Here we are defining our default column widths with the intention
 	of keeping it 'mobile first'
 */
-.grid-col-1of8, .grid-col-1of8-nav, .grid-col-1of8-logo {
+.grid-col-2of16, .grid-col-2of16-nav, .grid-col-2of16-logo {
 	width: 100%;
 }
 
@@ -54,13 +54,27 @@
 
 	Think of this as saying, when display width > 30em, apply this
 */
-@media (min-width: 40em) {
 
-	.grid-col-1of8-nav {
+/*
+@media (min-width: 36em) {
+
+	.grid-col-2of16-nav {
+		width: 18.75%;
+		float: right;
+	}
+	.grid-col-2of16-logo {
+		width: 18.75%;
+	}
+}
+*/
+
+@media (min-width: 48em) {
+
+	.grid-col-2of16-nav {
 		width: 12.5%;
 		float: right;
 	}
-	.grid-col-1of8-logo {
+	.grid-col-2of16-logo {
 		width: 12.5%;
 	}
 }
