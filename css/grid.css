@@ -54,7 +54,20 @@
 
 	Think of this as saying, when display width > 30em, apply this
 */
+
+
 @media (min-width: 40em) {
+
+	.grid-col-1of8-nav {
+		width: 15%;
+		float: right;
+	}
+	.grid-col-1of8-logo {
+		width: 15%;
+	}
+}
+
+@media (min-width: 52em) {
 
 	.grid-col-1of8-nav {
 		width: 12.5%;
@@ -73,25 +86,6 @@
 
 	Think of this as saying, when display width > 50em, apply this
 */
-@media (min-width: 50em) {
-
-	.grid-col-5of10-logo {
-		width: 50%;
-		text-align: center;
-	}
-
-	.grid-col-5of10:first-of-type {
-		padding-right: 0.5em;
-	}
-
-	.grid-col-5of10:last-of-type {
-		padding-left: 0.5em;
-	}
-
-
-
-}
-
 
 
 
