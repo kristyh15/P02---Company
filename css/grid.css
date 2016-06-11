@@ -24,14 +24,124 @@
 	float: left;
 	padding: 0; 
 	text-align: center; /* center the content in this block by default */
+	width: 100%;  /* defining the default to be mobile first */
 }
 
 /*
 	Here we are defining our default column widths with the intention
 	of keeping it 'mobile first'
-*/
-.grid-col-2of16, .grid-col-2of16-nav, .grid-col-2of16-logo {
+
+.grid-col-1of12, .grid-col-2of12, .grid-col-3of12, .grid-col-4of12, .grid-col-5of12, .grid-col-6of12
+.grid-col-7of12, .grid-col-8of12, .grid-col-9of12, .grid-col-10of12, .grid-col-11of12, .grid-col-12of12 {
 	width: 100%;
+}
+*/
+
+@media (min-width: 40em) {
+
+/* Define columns */
+.grid-col-m-1of12 {
+	width: 8.333%;	
+}
+
+.grid-col-m-2of12 {
+	width: 16.667%;	
+}
+
+.grid-col-m-3of12 {
+	width: 25%;	
+}
+
+.grid-col-m-4of12 {
+	width: 33.333%;
+}
+
+.grid-col-m-5of12 {
+	width: 41.667%;	
+}
+
+.grid-col-m-6of12 {
+	width: 50%;
+}
+
+.grid-col-m-7of12 {
+	width: 58.333%;
+}
+
+.grid-col-m-8of12 {
+  width: 66.667%;
+}
+
+.grid-col-m-9of12 {
+	width: 75%;
+}
+
+.grid-col-m-10of12 {
+	width: 83.333%;
+}
+
+.grid-col-m-11of12 {
+	width: 91.667%;
+}
+
+.grid-col-m-12of12 {
+	width: 100%;
+}
+
+}
+
+
+@media (min-width: 68em) {
+
+/* Define columns */
+.grid-col-1of12 {
+	width: 8.333%;	
+}
+
+.grid-col-2of12 {
+	width: 16.667%;	
+}
+
+.grid-col-3of12 {
+	width: 25%;	
+}
+
+.grid-col-4of12 {
+	width: 33.333%;
+}
+
+.grid-col-5of12 {
+	width: 41.667%;	
+}
+
+.grid-col-6of12 {
+	width: 50%;
+}
+
+.grid-col-7of12 {
+	width: 58.333%;
+}
+
+.grid-col-8of12 {
+  width: 66.667%;
+}
+
+.grid-col-9of12 {
+	width: 75%;
+}
+
+.grid-col-10of12 {
+	width: 83.333%;
+}
+
+.grid-col-11of12 {
+	width: 91.667%;
+}
+
+.grid-col-12of12 {
+	width: 100%;
+}
+
 }
 
 
@@ -60,6 +170,7 @@
 
 	.grid-col-2of16-nav {
 		width: 18.75%;
+<<<<<<< HEAD
 		float: right;
 	}
 	.grid-col-2of16-logo {
@@ -68,43 +179,8 @@
 }
 */
 
-@media (min-width: 48em) {
-
-	.grid-col-2of16-nav {
-		width: 12.5%;
-		float: right;
-	}
-	.grid-col-2of16-logo {
-		width: 12.5%;
-	}
-}
 
 
-/*
-	Here using @media queries, we are specifying when the display
-	has a width less than 50em it should collapse the 5/10 columns 
-	into one stack (hence width: 100%)
-
-	Think of this as saying, when display width > 50em, apply this
-*/
-@media (min-width: 50em) {
-
-	.grid-col-5of10-logo {
-		width: 50%;
-		text-align: center;
-	}
-
-	.grid-col-5of10:first-of-type {
-		padding-right: 0.5em;
-	}
-
-	.grid-col-5of10:last-of-type {
-		padding-left: 0.5em;
-	}
-
-
-
-}
 
 
 
