@@ -15,7 +15,7 @@
 
 body {
   font-family: Brandon Grotesque, Adobe Devangari, sans-serif; 
-  padding: 3rem;
+  padding: 1.5rem;
   background-color: #f9f9fa;
 }
 
@@ -80,6 +80,14 @@ ul.citations li strong {
 
 cite {
   font-style: normal;
+}
+
+
+li {
+  font-family: Adobe Devangari;
+  font-weight: normal;
+  font-size: 0.85rem;
+  text-align: left;
 }
 
 .headergap {
@@ -200,9 +208,6 @@ form {
   padding:1.15em;
   text-transform: uppercase;
   font-size: 0.85rem;
-  /* background-color: #f9f9fa;
-   width: 150px;
-  height: 230px; */
 }
 
 label {
@@ -224,7 +229,7 @@ input {
   TEXT ELEMENTS -------------------
 */
 
-/*Styling for the three levels of headings*/
+/*Styling for the levels of headings*/
 .heading1 {
   font-size: 2.2rem;
   font-weight: bold;
@@ -265,6 +270,44 @@ input {
   margin-bottom: 0.2rem;
 }
 
+.prod-title-description {
+  font-size: 1rem;
+  font-weight: medium;
+  text-align: left;
+  color: #818476;
+  padding: 1.25rem 0rem 0rem 1.5rem; /*padding order: top, right, bottom, left*/
+  margin-bottom: 0;
+  clear: left;
+}
+
+.prod-title-specs {
+  font-size: 1rem;
+  font-weight: medium;
+  text-align: left;
+  color: #818476;
+  padding: 0rem 0rem 0rem 1.5rem; /*padding order: top, right, bottom, left*/
+  margin-bottom: 0;
+  clear: left;
+}
+
+.prod-title-color {
+  font-size: 1rem;
+  font-weight: medium;
+  text-align: left;
+  color: #818476;
+  margin-bottom: 0;
+  clear: left;
+}
+
+.prod-title-size {
+  font-size: 1rem;
+  font-weight: medium;
+  text-align: left;
+  color: #818476;
+  margin-bottom: 0;
+  clear: left;
+}
+
 /*Styling for paragraph*/
 .paragraph {
   font-family: Adobe Devangari; /*font for this paragraph class is Adobe Devangari*/
@@ -274,9 +317,21 @@ input {
   color: #202021;
 }
 
+/*Styling for product description*/
+.prod-description {
+  font-family: Adobe Devangari; /*font for this paragraph class is Adobe Devangari*/
+  font-size: 0.85rem; 
+  text-align: left;
+  max-width: 30rem; /*line length*/
+  color: #202021;
+  padding: 0rem 0rem 0rem 1.5rem; /*padding order: top, right, bottom, left*/
+  clear: left;
+}
+
 /*Styling for unordered list*/
 .ulist {
   color: #202021;
+  margin: 0;
 }
 
 /*Styling for ordered list*/
@@ -296,7 +351,7 @@ input {
   text-align: center;
   width: 200px;
   height: 80px;
-  background-color: #f9f9fa
+  background-color: #f9f9fa;
 }
 
 .darkgreyColor {
@@ -306,7 +361,7 @@ input {
   text-align: center;
   width: 200px;
   height: 80px;
-  background-color: #202021
+  background-color: #202021;
 }
 
 .greenColor {
@@ -316,9 +371,43 @@ input {
   text-align: center;
   width: 200px;
   height: 80px;
-  background-color: #818476
+  background-color: #818476;
 }
 
+/*Product specific color options*/
+.mintColor {
+  display: inline-block;
+  margin: 0em;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #c3dcd9;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.tealColor {
+  display: inline-block;
+  margin: 0em;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #83a0a4;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.burgundyColor {
+  display: inline-block;
+  margin: 0em;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #9e5745;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.mintColor:hover, .mintColor:active, .tealColor:hover, .tealColor:active, .burgundyColor:hover, .burgundyColor:active {
+  opacity: 0.5;
+}
 
 
 
@@ -337,7 +426,7 @@ input {
 /*Styling for product listing*/
 .prod-list {
   display: flex;
-  flex-wrap:wrap; /*line length in caption is no longer than the picture*/
+  flex-wrap: wrap; /*line length in caption is no longer than the picture*/
   max-width: 50%; /*maximum width of the image is 50% of the original size of the image*/
   color: #202021; /*text color*/
   text-decoration: none;
