@@ -28,13 +28,17 @@
 }
 
 /*
-	Here we are defining our default column widths with the intention
-	of keeping it 'mobile first'
-
-.grid-col-1of12, .grid-col-2of12, .grid-col-3of12, .grid-col-4of12, .grid-col-5of12, .grid-col-6of12
-.grid-col-7of12, .grid-col-8of12, .grid-col-9of12, .grid-col-10of12, .grid-col-11of12, .grid-col-12of12 {
-	width: 100%;
+	Here we are clearing floated items to ensure that
+	our 'grid' structure can have different rows
+*/
+.grid-row:after {
+	content: "";
+	display: block;
+	clear: both;
 }
+
+/*
+	Setting up break points for TABLET
 */
 
 @media (min-width: 40em) {
@@ -91,6 +95,10 @@
 }
 
 
+/*
+	Setting up break points for WEB
+*/
+
 @media (min-width: 68em) {
 
 /* Define columns */
@@ -146,37 +154,6 @@
 
 
 
-/*
-	Here we are clearing floated items to ensure that
-	our 'grid' structure can have different rows
-*/
-.grid-row:after {
-	content: "";
-	display: block;
-	clear: both;
-}
-
-
-
-/*
-	Using further @media queries, we specify that at a width of
-	less than 30em it should collapse the 2/10 columns into one stack
-
-	Think of this as saying, when display width > 30em, apply this
-*/
-
-/*
-@media (min-width: 36em) {
-
-	.grid-col-2of16-nav {
-		width: 18.75%;
-		float: right;
-	}
-	.grid-col-2of16-logo {
-		width: 18.75%;
-	}
-}
-*/
 
 
 
