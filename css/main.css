@@ -15,7 +15,7 @@
 
 body {
   font-family: Brandon Grotesque, Adobe Devangari, sans-serif; 
-  padding: 2rem;
+  padding: 3rem;
   background-color: #f9f9fa;
 }
 
@@ -190,7 +190,7 @@ cite {
 }
 
 .in-text-link:hover, .in-text-link:focus, .button-confirm:hover, .button-checkout:focus, .button-checkout:hover, .button-checkout:focus, .button-placeorder:focus, .button-placeorder:hover, .button-addcart:focus, .button-addcart:hover { /*comma specifies the two states we want; the two states here are hover and focus*/
-  opacity: 0.7; /* change in-text link and button opacity to 70% on mouse hover */
+  opacity: 0.5; /* change in-text link and button opacity to 70% on mouse hover */
 }
 
 
@@ -228,6 +228,7 @@ input {
 .heading1 {
   font-size: 2.2rem;
   font-weight: bold;
+  text-align: left;
   color: #202021;
   margin-right: 1.5rem;
   margin-top: 1rem;
@@ -237,6 +238,7 @@ input {
 .heading2 {
   font-size: 1.8rem;
   font-weight: bold;
+  text-align: left;
   color: #202021;
   margin-right: 1.5rem;
   margin-top: 1rem;
@@ -246,16 +248,28 @@ input {
 .heading3 {
   font-size: 1.3rem;
   font-weight: bold;
+  text-align: left;
   color: #202021;
   margin-right: 1.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
+.heading4 {
+  font-size: 1.15rem;
+  font-weight: medium;
+  text-align: left;
+  color: #202021;
+  margin-right: 1.5rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
 /*Styling for paragraph*/
 .paragraph {
   font-family: Adobe Devangari; /*font for this paragraph class is Adobe Devangari*/
   font-size: 0.85rem; 
+  text-align: left;
   max-width: 30rem; /*line length*/
   color: #202021;
 }
@@ -331,6 +345,7 @@ input {
 img {
   max-width: 100%;
   height: auto; /*automatically adjust height according to width to constrain proportions of image*/
+  padding:0;
 }
 
 /*Styling for grid*/
@@ -345,7 +360,7 @@ img {
 img {
   max-width: 100%;
   height: auto; /*automatically adjust height according to width to constrain proportions of image*/
-  padding-top: 1.75rem; /*add padding above image*/
+/*  padding-top: 1.75rem; /*add padding above image*/
 }
 
 
