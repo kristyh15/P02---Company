@@ -131,7 +131,7 @@ li {
 }
 
 /*Styline for buttons with outline*/
-.button-addcart {
+.button-addcart, .button-addwishlist{
   display: inline-block;
   padding: 0.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
   color: #818476; /*button text color is green*/
@@ -184,7 +184,7 @@ li {
 }
 
 .dropdown:hover .dropdown-button {
-    background-color: #e5e5e5; /*change background color of dropdown menu links on mouse-hover*/
+  background-color: #e5e5e5; /*change background color of dropdown menu links on mouse-hover*/
 }
 
 
@@ -197,7 +197,7 @@ li {
   font-style: Brandon Grotesque Bold;
 }
 
-.in-text-link:hover, .in-text-link:focus, .button-confirm:hover, .button-checkout:focus, .button-checkout:hover, .button-checkout:focus, .button-placeorder:focus, .button-placeorder:hover, .button-addcart:focus, .button-addcart:hover { /*comma specifies the two states we want; the two states here are hover and focus*/
+.in-text-link:hover, .in-text-link:focus, .button-confirm:hover, .button-checkout:focus, .button-checkout:hover, .button-checkout:focus, .button-placeorder:focus, .button-placeorder:hover, .button-addcart:focus, .button-addcart:hover, .button-addwishlist:focus, .button-addwishlist:hover{ /*comma specifies the two states we want; the two states here are hover and focus*/
   opacity: 0.5; /* change in-text link and button opacity to 70% on mouse hover */
 }
 
