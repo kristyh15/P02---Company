@@ -10,12 +10,17 @@
   src: url('fonts/Brandon_reg.otf') format('opentype'),
        url('fonts/Brandon_med.otf') format('opentype'),
        url('fonts/Brandon_bld.otf') format('opentype');
+
+  font-family: "Adobe Devanagari";
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/AdobeDevanagari-Regular.otf') format('opentype');
 }
 
 
 body {
-  font-family: Brandon Grotesque, Adobe Devangari, sans-serif; 
-  padding: 1.5rem;
+  font-family: Brandon Grotesque, Adobe Devanagari, sans-serif; 
+  padding: 0rem;
   background-color: #f9f9fa;
 }
 
@@ -84,7 +89,7 @@ cite {
 
 
 li {
-  font-family: Adobe Devangari;
+  font-family: Adobe Devanagari;
   font-weight: normal;
   font-size: 0.85rem;
   text-align: left;
@@ -139,6 +144,7 @@ li {
   border-style: solid; /*button border is a solid line on all four sides*/
   border-color: #818476; /*button border color is green*/
   border-radius: 5em; /*rounding button corners*/
+  padding: 0rem 0rem 0rem 1.5rem;
   text-decoration: none; /*setting to none removes underline from texts*/
   -webkit-transition: background-color 0.35s ease-out; /*how fast the background color of the button changes to green (#818476) on mouse hover*/
   transition: background-color 0.35s ease-out;
@@ -310,7 +316,7 @@ input {
 
 /*Styling for paragraph*/
 .paragraph {
-  font-family: Adobe Devangari; /*font for this paragraph class is Adobe Devangari*/
+  font-family: Adobe Devanagari; /*font for this paragraph class is Adobe Devangari*/
   font-size: 0.85rem; 
   text-align: left;
   max-width: 30rem; /*line length*/
@@ -319,7 +325,7 @@ input {
 
 /*Styling for product description*/
 .prod-description {
-  font-family: Adobe Devangari; /*font for this paragraph class is Adobe Devangari*/
+  font-family: Adobe Devanagari; /*font for this paragraph class is Adobe Devangari*/
   font-size: 0.85rem; 
   text-align: left;
   max-width: 30rem; /*line length*/
