@@ -20,7 +20,7 @@
 
 body {
   font-family: Brandon Grotesque, Adobe Devanagari, sans-serif; 
-/*  padding: 1.5rem; */
+  padding: 1.5rem;
   background-color: #f9f9fa;
 }
 
@@ -144,7 +144,7 @@ li {
   border-style: solid; /*button border is a solid line on all four sides*/
   border-color: #818476; /*button border color is green*/
   border-radius: 5em; /*rounding button corners*/
-  padding: 0rem 0rem 0rem 1.5rem;
+  text-align: left;
   text-decoration: none; /*setting to none removes underline from texts*/
   -webkit-transition: background-color 0.35s ease-out; /*how fast the background color of the button changes to green (#818476) on mouse hover*/
   transition: background-color 0.35s ease-out;
@@ -241,9 +241,8 @@ input {
   font-weight: bold;
   text-align: center;
   color: #202021;
-  margin-right: 1.5rem;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .heading2 {
@@ -251,7 +250,6 @@ input {
   font-weight: bold;
   text-align: left;
   color: #202021;
-  margin-right: 1.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -261,7 +259,6 @@ input {
   font-weight: bold;
   text-align: left;
   color: #202021;
-  margin-right: 1.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -271,7 +268,6 @@ input {
   font-weight: medium;
   text-align: left;
   color: #202021;
-  margin-right: 1.5rem;
   margin-top: 0.2rem;
   margin-bottom: 0.2rem;
 }
@@ -281,7 +277,7 @@ input {
   font-weight: medium;
   text-align: left;
   color: #818476;
-  padding: 1.25rem 0rem 0rem 1.5rem; /*padding order: top, right, bottom, left*/
+/*  padding: 1.25rem 0rem 0rem 1.5rem; /*padding order: top, right, bottom, left*/
   margin-bottom: 0;
   clear: left;
 }
@@ -291,7 +287,7 @@ input {
   font-weight: medium;
   text-align: left;
   color: #818476;
-  padding: 0rem 0rem 0rem 1.5rem; /*padding order: top, right, bottom, left*/
+/*  padding: 0rem 0rem 0rem 1.5rem; /*padding order: top, right, bottom, left*/
   margin-bottom: 0;
   clear: left;
 }
@@ -321,6 +317,7 @@ input {
   text-align: left;
   max-width: 30rem; /*line length*/
   color: #202021;
+  padding-bottom:2.5rem;
 }
 
 /*Styling for product description*/
@@ -330,7 +327,7 @@ input {
   text-align: left;
   max-width: 30rem; /*line length*/
   color: #202021;
-  padding: 0rem 0rem 0rem 1.5rem; /*padding order: top, right, bottom, left*/
+/*  padding: 0rem 0rem 0rem 1.5rem; /*padding order: top, right, bottom, left*/
   clear: left;
 }
 
@@ -438,14 +435,7 @@ input {
   text-decoration: none;
 }
 
-img {
-  max-width: 100%;
-  height: auto; /*automatically adjust height according to width to constrain proportions of image*/
-  padding:0;
-}
-
 /*Styling for grid*/
-
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -456,10 +446,12 @@ img {
 img {
   max-width: 100%;
   height: auto; /*automatically adjust height according to width to constrain proportions of image*/
-  padding-top: 2.5rem; /*add padding above image*/
 }
 
-
+/*Styling for product detailed view*/
+.image-prod-details {
+  padding-right:2.5rem;
+}
 
 
 
