@@ -9,15 +9,26 @@ body {
   background-color: #f9f9fa;
 }
 
+
 section:not([id]) {
   margin: 1em 0;
   padding: 1em 0;
-  border-bottom: 0.025em solid #333;
 }
 
 section h2 {
   margin-top: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
+  border-bottom: 0.025em solid #333;
+  padding-bottom: 0.1em;
+}
+
+section h4 {
+  margin-top: 0;
+  margin-bottom: 1em;
+  padding-bottom: 0.1em;
+  float: left;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 section h3 {
@@ -39,6 +50,7 @@ nav {
   border-bottom: 0.005em solid #333;
   background-color: #f9f9f9;
   position: fixed;
+  z-index: 10;
 }
 
 nav a:hover, nav a:focus {
@@ -126,7 +138,6 @@ cite {
   transition: background-color 0.35s ease-out;
 }
 
-
 /*Styling for the drop-down menu*/
 .dropdown-button {
   display: block;
@@ -139,8 +150,22 @@ cite {
   text-decoration: none; /*setting to none removes underline from texts*/
 }
 
+.dropdown-picker {
+  display: block;
+  font-family: Brandon Grotesque;
+  font-size: 16px;
+  padding: 0.55em 0.8em;
+  text-align: left;
+  color: #202021; /*button text color is grey*/
+  background-color: #ffffff; /*button background color is white*/
+  border-color: rgba(35, 7, 7, 0.16);
+  border-width: 0.001em;
+  text-decoration: none; /*setting to none removes underline from texts*/
+}
+
 .dropdown {
   display: block;
+  padding-bottom: 1em;
 }
 
 .dropdown-content {
@@ -186,13 +211,26 @@ cite {
   opacity: 0.7; /* change in-text link and button opacity to 70% on mouse hover */
 }
 
+/*Styling for the in-text link ALT*/
+
+.in-text-link-alt {
+  color: #818476;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.in-text-link-alt:hover, .in-text-link-alt:focus {
+  opacity: 0.7; /* change in-text link and button opacity to 70% on mouse hover */
+}
 
 /* Styling for the text input field */
 form {
   display: inline-block;
   padding:1.15em;
-  text-transform: uppercase;
-  font-size: 0.85rem;
+  font-size: 1rem;
+  padding-bottom: 0.5em;
+
   /* background-color: #f9f9fa;
    width: 150px;
   height: 230px; */
@@ -200,17 +238,25 @@ form {
 
 label {
   display: block;
+  padding-bottom: 0.25em;
 }
 
 input {
   display: inline-block;
-  width: 240px;
-  height: 30px;
+  width: 40em;
+  height: 3.5em;
   color: #000;
   margin-bottom: .75em;
   padding-left: 0.5em;
 }
 
+input[type='checkbox'] {
+  height: 1em;
+  padding-left: 1em;
+  padding-bottom: 3em;
+  width: 1em;
+  color: #818476;
+}
 
 
 /* 
@@ -219,13 +265,15 @@ input {
 
 /*Styling for the three levels of headings*/
 .heading1 {
-  font-size: 2.2rem;
-  font-weight: bold;
-  color: #202021;
-  margin-right: 1.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #202021;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
+
 
 .heading2 {
   font-size: 1.8rem;
@@ -236,6 +284,16 @@ input {
   margin-bottom: 1rem;
 }
 
+.prod-title-specs {
+    font-size: 1rem;
+    font-weight: medium;
+    text-align: left;
+    color: #818476;
+    padding: 0rem 0rem 0rem 1.5rem;
+    margin-bottom: 0;
+    clear: left;
+}
+
 .heading3 {
   font-size: 1.3rem;
   font-weight: bold;
@@ -243,6 +301,18 @@ input {
   margin-right: 1.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.heading4 {
+  font-size: 1.3rem;
+  color: #202021;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.paralist {
+  margin-bottom: 0.5em
 }
 
 /*Styling for paragraph*/
@@ -341,9 +411,85 @@ img {
   padding-top: 1.75rem; /*add padding above image*/
 }
 
+/*Styling for Checkout*/
 
+.mintColor {
+    display: inline-block;
+    margin: 0em;
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    background-color: #c3dcd9;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
 
+.checkout{
+  padding-right: 0em
+}
 
+.checkoutelement{
+  text-align: left;
+  padding-bottom: 2em;
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+
+.cart{
+  padding-right: 0em
+}
+
+.cartelement{
+  text-align: left;
+  padding-bottom: 2em;
+  display: inline-block;
+  float: left;
+  width: 100%;
+  border-bottom: 0.025em solid #333;
+}
+
+.summary{
+  text-align: left;
+  padding-left: 0em;
+}
+
+.carttitle{
+  text-align: left;
+  padding-left: 1.8em;
+  padding-bottom: 1em;
+}
+
+.carttitle-alt{
+  text-align: left;
+  padding-bottom: 1em;
+}
+
+.cartinfo{
+  text-align: left;
+  padding-left: 2em;
+  padding-bottom: 0.5em;
+}
+
+.cartinfo-alt{
+  text-align: left;
+  padding-bottom: 0.5em;
+}
+
+.block{
+  border-bottom: 0.025em solid #333;
+  display: inline-block;
+}
+
+.cartimage-lrg{
+  max-height: 350px;
+  float: left;
+}
+
+.cartimage{
+  max-width: 200px;
+  float: left;
+}
 
 
 
