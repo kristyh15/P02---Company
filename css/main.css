@@ -273,14 +273,35 @@ input {
   margin-bottom: 0.2rem;
 }
 
-.prod-title-info {
+.title-info {
   font-size: 1rem;
   font-weight: medium;
   text-align: left;
+  text-decoration: none;
   color: #818476;
   margin: 0;
   clear: left;
   padding-top:0.75rem;
+}
+
+/*Styling for about page*/
+.title-about {
+  font-size: 1rem;
+  font-weight: medium;
+  text-align: center;
+  text-decoration: none;
+  color: #818476;
+  margin: 0;
+  clear: left;
+  padding-top:0.75rem;
+}
+
+.info-about {
+  font-family: Adobe Devanagari; /*font for this paragraph class is Adobe Devangari*/
+  font-size: 0.85rem; 
+  text-align: center;
+  max-width: 40rem; /*line length*/
+  color: #202021;
 }
 
 /*Styling for paragraph*/
