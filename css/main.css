@@ -124,11 +124,13 @@ li {
 }
 
 /* Styling for buttons with fill */
-.button-confirm, .button-checkout, .button-placeorder { /*refer to classes .button-submit/checkout/placeorder/addcart in html*/
+.button-fill { /*refer to classes .button-submit/checkout/placeorder/addcart in html*/
   display: inline-block;
   padding: 0.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
   color: #f9f9fa; /*button text color is off-white*/
   background-color: #818476; /*button background color is green*/
+  border-style: solid; /*button border is a solid line on all four sides*/
+  border-color: #818476;
   border-radius: 5em; /*rounding button corners*/
   text-decoration: none; /*setting to none removes underline from texts*/
   -webkit-transition: background-color 0.35s ease-out; /*how fast the background color of the button changes to green (#818476) on mouse hover*/
@@ -136,7 +138,7 @@ li {
 }
 
 /*Styline for buttons with outline*/
-.button-addcart, .button-addwishlist{
+.button-outline {
   display: inline-block;
   padding: 0.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
   color: #818476; /*button text color is green*/
@@ -144,7 +146,6 @@ li {
   border-style: solid; /*button border is a solid line on all four sides*/
   border-color: #818476; /*button border color is green*/
   border-radius: 5em; /*rounding button corners*/
-  text-align: left;
   text-decoration: none; /*setting to none removes underline from texts*/
   -webkit-transition: background-color 0.35s ease-out; /*how fast the background color of the button changes to green (#818476) on mouse hover*/
   transition: background-color 0.35s ease-out;
@@ -203,7 +204,7 @@ li {
   font-style: Brandon Grotesque Bold;
 }
 
-.in-text-link:hover, .in-text-link:focus, .button-confirm:hover, .button-checkout:focus, .button-checkout:hover, .button-checkout:focus, .button-placeorder:focus, .button-placeorder:hover, .button-addcart:focus, .button-addcart:hover, .button-addwishlist:focus, .button-addwishlist:hover{ /*comma specifies the two states we want; the two states here are hover and focus*/
+.in-text-link:hover, .in-text-link:focus, .button-fill:focus, .button-fill:hover, .button-outline:focus, .button-outline:hover{ /*comma specifies the two states we want; the two states here are hover and focus*/
   opacity: 0.5; /* change in-text link and button opacity to 70% on mouse hover */
 }
 
@@ -272,42 +273,14 @@ input {
   margin-bottom: 0.2rem;
 }
 
-.prod-title-description {
+.prod-title-info {
   font-size: 1rem;
   font-weight: medium;
   text-align: left;
   color: #818476;
-/*  padding: 1.25rem 0rem 0rem 1.5rem; /*padding order: top, right, bottom, left*/
-  margin-bottom: 0;
+  margin: 0;
   clear: left;
-}
-
-.prod-title-specs {
-  font-size: 1rem;
-  font-weight: medium;
-  text-align: left;
-  color: #818476;
-/*  padding: 0rem 0rem 0rem 1.5rem; /*padding order: top, right, bottom, left*/
-  margin-bottom: 0;
-  clear: left;
-}
-
-.prod-title-color {
-  font-size: 1rem;
-  font-weight: medium;
-  text-align: left;
-  color: #818476;
-  margin-bottom: 0;
-  clear: left;
-}
-
-.prod-title-size {
-  font-size: 1rem;
-  font-weight: medium;
-  text-align: left;
-  color: #818476;
-  margin-bottom: 0;
-  clear: left;
+  padding-top:0.75rem;
 }
 
 /*Styling for paragraph*/
@@ -327,8 +300,8 @@ input {
   text-align: left;
   max-width: 30rem; /*line length*/
   color: #202021;
-/*  padding: 0rem 0rem 0rem 1.5rem; /*padding order: top, right, bottom, left*/
   clear: left;
+  margin:0.25rem;
 }
 
 /*Styling for unordered list*/
