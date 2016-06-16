@@ -145,10 +145,7 @@
 	Setting up break points for Checkout Page
 */
 
-=======
-	Setting up break points for Checkout Page in WEB
-*/
->>>>>>> updatingFormFields
+
 @media (min-width: 68em) {
 .grid-col-checkout-6of12 {
 	width: 50%;
