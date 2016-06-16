@@ -1,10 +1,4 @@
 
-/* 
-	This tutorial draws from "Don't Overthink Grids" available at
-	http://css-tricks.com/dont-overthink-it-grids/
-*/
-
-
 /*
 	With this selector, we are specifying that all objects use
 	the border-box model (not the content-box model)
@@ -28,6 +22,7 @@
 }
 
 /*
+<<<<<<< HEAD
 	Here we are clearing floated items to ensure that
 	our 'grid' structure can have different rows
 */
@@ -44,6 +39,9 @@
 
 /*
 	Setting up break points for Cart Summary
+=======
+	Setting up break points for Small Size (multi-column for mobile) used in the cart and checkout
+>>>>>>> updatingFormFields
 */
 
 @media (min-width: 0em) {
@@ -62,6 +60,7 @@
 .grid-col-cart-8of12 {
   width: 66.667%;
 }
+<<<<<<< HEAD
 }
 
 
@@ -69,6 +68,19 @@
 /*
 	Setting up break points for Mid Size
 >>>>>>> templateCart
+=======
+.grid-col-cart-10of12 {
+  width: 83.333%;
+}
+.grid-col-cart-12of12 {
+  width: 100%;
+}
+}
+
+
+/*
+	Setting up break points for Mid Size (Tablet)
+>>>>>>> updatingFormFields
 */
 
 @media (min-width: 40em) {
@@ -128,10 +140,15 @@
 
 /*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	Setting up break points for Checkout Page
 */
 
+=======
+	Setting up break points for Checkout Page in WEB
+*/
+>>>>>>> updatingFormFields
 @media (min-width: 68em) {
 .grid-col-checkout-6of12 {
 	width: 50%;
@@ -144,8 +161,12 @@
 
 
 /*
+<<<<<<< HEAD
 >>>>>>> templateCart
 	Setting up break points for WEB
+=======
+Setting up main break points for WEB
+>>>>>>> updatingFormFields
 */
 
 @media (min-width: 68em) {
@@ -195,13 +216,15 @@
 	width: 91.667%;
 }
 
+.grid-col-11-5of12 {
+	width: 95.8335%;
+}
+
 .grid-col-12of12 {
 	width: 100%;
 }
 
 }
-
-
 
 
 /*
