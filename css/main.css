@@ -521,40 +521,6 @@ input[id='quantity'] {
   background-color: #818476;
 }
 
-/*Product specific color options*/
-.mintColor {
-  display: inline-block;
-  margin: 0em;
-  width: 25px;
-  height: 25px;
-  border-radius: 12.5px;
-  background-color: #c3dcd9;
-  padding: 0rem 1.5rem 0rem 1.5rem;
-}
-
-.tealColor {
-  display: inline-block;
-  margin: 0em;
-  width: 25px;
-  height: 25px;
-  border-radius: 12.5px;
-  background-color: #83a0a4;
-  padding: 0rem 1.5rem 0rem 1.5rem;
-}
-
-.burgundyColor {
-  display: inline-block;
-  margin: 0em;
-  width: 25px;
-  height: 25px;
-  border-radius: 12.5px;
-  background-color: #9e5745;
-  padding: 0rem 1.5rem 0rem 1.5rem;
-}
-
-.mintColor:hover, .mintColor:active, .tealColor:hover, .tealColor:active, .burgundyColor:hover, .burgundyColor:active {
-  opacity: 0.5;
-}
 
 /*Product specific color options*/
 .mintColor {
@@ -635,22 +601,6 @@ img {
   height: auto; /*automatically adjust height according to width to constrain proportions of image*/
 }
 
-/*Styling for Checkout*/
-
-.mintColor {
-    display: inline-block;
-    margin: 0em;
-    width: 15px;
-    height: 15px;
-    border-radius: 30px;
-    background-color: #c3dcd9;
-    margin-top: 0.5em;
-    margin-left: 0.5em;
-}
-
-.checkout{
-  padding-right: 0em
-}
 
 /*Styling and dev containers for Cart and Checkout*/
 
