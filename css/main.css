@@ -43,10 +43,25 @@ section p {
 }
 
 nav {
+  width: 100%;
   margin-bottom: 1em;
   padding-bottom: 1em;
-  border-bottom: 0.15em solid #333;
+  padding-top: 1em;
+  border-bottom: 0.005em solid #333;
+  background-color: #f9f9f9;
+  z-index: 10;
+
 }
+
+
+@media (min-width: 40em) {
+  nav{
+    top: 0em;
+    left: 0em;
+    position: fixed;
+}
+}
+
 
 nav a:hover, nav a:focus {
   text-decoration: none;
