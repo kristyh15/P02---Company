@@ -287,7 +287,7 @@ label {
 
 input {
   display: inline-block;
-  width: 100%;
+  width: 40em;
   height: 3.5em;
   color: #000;
   margin-bottom: .75em;
@@ -638,7 +638,7 @@ img {
   text-align: left;
   padding-top: 1em;
   padding-bottom: 1em;
-  padding-left: 2.5em;
+  padding-left: 2.1em;
 }
 
 .cartinfo{
