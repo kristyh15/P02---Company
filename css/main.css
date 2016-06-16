@@ -99,6 +99,18 @@ cite {
   font-style: normal;
 }
 
+li {
+  font-family: Adobe Devanagari;
+  font-weight: normal;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.headergap {
+  position: relative;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
 
 li {
   font-family: Adobe Devanagari;
@@ -249,12 +261,20 @@ li {
 /* Styling for the text input field */
 form {
   display: inline-block;
+<<<<<<< HEAD
   padding:1.15em;
   font-size: 1rem;
   padding-bottom: 0.5em;
+=======
+  padding: 0.5rem 0rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+>>>>>>> updatingNavigation
 }
 
 label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
   display: block;
   padding-bottom: 0.25em;
 }
@@ -276,6 +296,14 @@ input[type='checkbox'] {
   color: #818476;
 }
 
+<<<<<<< HEAD
+=======
+input[id='quantity'] {
+  height: 3.5em;
+  width: 3.5em;
+}
+
+>>>>>>> updatingNavigation
 
 /* 
   TEXT ELEMENTS -------------------
@@ -294,22 +322,13 @@ input[type='checkbox'] {
 
 
 .heading2 {
+<<<<<<< HEAD
   font-size: 1.8rem;
   font-weight: bold;
   text-align: center;
   color: #202021;
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.prod-title-specs {
-    font-size: 1rem;
-    font-weight: medium;
-    text-align: left;
-    color: #818476;
-    padding: 0rem 0rem 0rem 1.5rem;
-    margin-bottom: 0;
-    clear: left;
 }
 
 .heading3 {
@@ -322,9 +341,68 @@ input[type='checkbox'] {
 }
 
 .heading4 {
-  font-size: 1.3rem;
-  font-weight: bold;
+ font-size: 1.15rem;
+  font-weight: medium;
   text-align: left;
+  color: #202021;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+
+.prod-title-specs {
+    font-size: 1rem;
+    font-weight: medium;
+    text-align: left;
+    color: #818476;
+    padding: 0rem 0rem 0rem 1.5rem;
+    margin-bottom: 0;
+    clear: left;
+}
+
+.paralist {
+  margin-bottom: 0.5em;
+}
+
+.title-info {
+  font-size: 1rem;
+  font-weight: medium;
+  text-align: left;
+  text-decoration: none;
+  color: #818476;
+  margin: 0;
+  clear: left;
+  padding-top:0.75rem;
+}
+
+.section-info {
+  font-size: 1rem;
+  font-weight: medium;
+  text-align: center;
+  text-decoration: none;
+  color: #818476;
+  margin: 0;
+  clear: left;
+  padding-top:0.75rem;
+}
+
+/*Styling for about page*/
+.title-about {
+  font-size: 1rem;
+  font-weight: medium;
+  text-align: center;
+  text-decoration: none;
+  color: #818476;
+  margin: 0;
+  clear: left;
+  padding-top:0.75rem;
+}
+
+.info-about {
+  font-family: Adobe Devanagari; /*font for this paragraph class is Adobe Devangari*/
+  font-size: 0.85rem; 
+  text-align: center;
+  max-width: 40rem; /*line length*/
   color: #202021;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -477,6 +555,51 @@ input[type='checkbox'] {
   opacity: 0.5;
 }
 
+/*Product specific color options*/
+.mintColor {
+  display: inline-block;
+  margin: 0em;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #c3dcd9;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.tealColor {
+  display: inline-block;
+  margin: 0em;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #83a0a4;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.burgundyColor {
+  display: inline-block;
+  margin: 0em;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #9e5745;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.mintCircle {
+    display: inline-block;
+    margin: 0em;
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    background-color: #c3dcd9;
+    margin-left: 0.5em;
+}
+
+.mintColor:hover, .mintColor:active, .tealColor:hover, .tealColor:active, .burgundyColor:hover, .burgundyColor:active {
+  opacity: 0.5;
+}
+
 
 /* 
   COMBINED ELEMENTS -------------------
@@ -513,6 +636,7 @@ img {
 
 /*Styling for Checkout*/
 
+<<<<<<< HEAD
 .mintColor {
     display: inline-block;
     margin: 0em;
@@ -528,6 +652,10 @@ img {
   padding-right: 0em
 }
 
+/*Styling and dev containers for Cart and Checkout*/
+
+
+
 .checkoutelement{
   text-align: left;
   padding-bottom: 2em;
@@ -536,68 +664,54 @@ img {
   width: 100%;
 }
 
-.cart{
-  padding-right: 0em
-}
-
-.cartelement{
-  text-align: left;
-  padding-bottom: 2em;
-  display: inline-block;
-  float: left;
-  width: 100%;
-  border-bottom: 0.025em solid #333;
-}
-
-.summary{
-  text-align: left;
-  padding-left: 0em;
-}
-
-.carttitle{
+.checkouttitle{
   text-align: left;
   padding-left: 1.8em;
   padding-bottom: 1em;
 }
 
-.carttitle-alt{
+.checkoutinfo{
   text-align: left;
+  padding-left: 2em;
+  padding-bottom: 0.5em;
+  font-family: Adobe Devanagari;
+  font-weight: normal;
+}
+
+.checkoutimage{
+  max-height: 350px;
+  float: left;
+}
+
+.carttitle{
+  margin: 0em;
+  text-align: left;
+  padding-top: 1em;
   padding-bottom: 1em;
+  padding-left: 1.5em;
+}
+
+.cartinfo{
+  text-align: left;
+  padding-bottom: 0.5em;
+  font-family: Adobe Devanagari;
+  font-weight: normal;
+  padding-left: 1.5em;
+}
+
+.cartimage{
+  width: 100%;
+  min-width: 175px;
+  float: left;
+  padding-top: 0.5em;
 }
 
 .image-prod-details {
   padding-right:2.5rem;
 }
 
-.cartinfo{
-  text-align: left;
-  padding-left: 2em;
-  padding-bottom: 0.5em;
-}
-
-.cartinfo-alt{
-  text-align: left;
-  padding-bottom: 0.5em;
-}
-
 .block{
   border-bottom: 0.025em solid #333;
   display: inline-block;
 }
-
-.cartimage-lrg{
-  max-height: 350px;
-  float: left;
-}
-
-.cartimage{
-  max-width: 200px;
-  float: left;
-}
-
-
-
-
-
-
 
