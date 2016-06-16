@@ -5,7 +5,7 @@
 
 @font-face{
   font-family: "Brandon Grotesque";
-  font-weight: normal, medium, bold;
+  font-weight: normal, bold;
   font-style: normal;
   src: url('fonts/Brandon_reg.otf') format('opentype'),
        url('fonts/Brandon_med.otf') format('opentype'),
@@ -343,7 +343,7 @@ input[id='quantity'] {
 
 .heading4 {
  font-size: 1.15rem;
-  font-weight: medium;
+  font-weight: bold;
   text-align: left;
   color: #202021;
   margin-top: 0.2rem;
@@ -353,7 +353,7 @@ input[id='quantity'] {
 
 .prod-title-specs {
     font-size: 1rem;
-    font-weight: medium;
+    font-weight: bold;
     text-align: left;
     color: #818476;
     padding: 0rem 0rem 0rem 1.5rem;
@@ -367,7 +367,7 @@ input[id='quantity'] {
 
 .title-info {
   font-size: 1rem;
-  font-weight: medium;
+  font-weight: bold;
   text-align: left;
   text-decoration: none;
   color: #818476;
@@ -378,7 +378,7 @@ input[id='quantity'] {
 
 .section-info {
   font-size: 1rem;
-  font-weight: medium;
+  font-weight: bold;
   text-align: center;
   text-decoration: none;
   color: #818476;
@@ -390,7 +390,7 @@ input[id='quantity'] {
 /*Styling for about page*/
 .title-about {
   font-size: 1rem;
-  font-weight: medium;
+  font-weight: bold;
   text-align: center;
   text-decoration: none;
   color: #818476;
@@ -411,7 +411,7 @@ input[id='quantity'] {
 
 .heading5 {
   font-size: 1.15rem;
-  font-weight: medium;
+  font-weight: bold;
   text-align: left;
   color: #202021;
   margin-top: 0.2rem;
@@ -425,7 +425,7 @@ input[id='quantity'] {
 
 .title-info {
   font-size: 1rem;
-  font-weight: medium;
+  font-weight: bold;
   text-align: left;
   text-decoration: none;
   color: #818476;
@@ -437,7 +437,7 @@ input[id='quantity'] {
 /*Styling for about page*/
 .title-about {
   font-size: 1rem;
-  font-weight: medium;
+  font-weight: bold;
   text-align: center;
   text-decoration: none;
   color: #818476;
