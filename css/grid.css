@@ -60,7 +60,15 @@
 .grid-col-cart-8of12 {
   width: 66.667%;
 }
-<<<<<<< HEAD
+.grid-col-cart-9of12 {
+  width: 75%;
+}
+.grid-col-cart-10of12 {
+  width: 83.333%;
+}
+.grid-col-cart-12of12 {
+  width: 100%;
+}
 }
 
 
