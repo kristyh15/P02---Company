@@ -542,7 +542,7 @@ input[id='quantity'] {
 
 
 /*Product specific color options*/
-.mintColor {
+.mintColor { /*for Agatha bike*/
   display: inline-block;
   margin: 0em;
   width: 25px;
@@ -552,7 +552,7 @@ input[id='quantity'] {
   padding: 0rem 1.5rem 0rem 1.5rem;
 }
 
-.tealColor {
+.tealColor { /*for Agatha bike*/
   display: inline-block;
   margin: 0em;
   width: 25px;
@@ -562,13 +562,33 @@ input[id='quantity'] {
   padding: 0rem 1.5rem 0rem 1.5rem;
 }
 
-.burgundyColor {
+.burgundyColor { /*for Agatha bike*/
   display: inline-block;
   margin: 0em;
   width: 25px;
   height: 25px;
   border-radius: 12.5px;
   background-color: #9e5745;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.mustardColor { /*for Franco bike*/
+  display: inline-block;
+  margin: 0em;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #c0873e;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.skyColor { /*for Franco bike*/
+  display: inline-block;
+  margin: 0em;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #72bfcd;
   padding: 0rem 1.5rem 0rem 1.5rem;
 }
 
