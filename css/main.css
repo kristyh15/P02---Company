@@ -318,8 +318,14 @@ input[id='quantity'] {
     font-weight: bold;
     text-align: center;
     color: #202021;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-bottom: 2rem;
+}
+
+@media (max-width: 40em) {
+  .heading1{
+    margin-top: 2rem;
+}
 }
 
 
