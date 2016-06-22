@@ -701,6 +701,20 @@ padding-left: 0em;
   padding-right:2.5rem;
 }
 
+.image-map {
+  padding-right:2.5rem;
+}
+
+@media (max-width: 40em) {
+.image-prod-details {
+  padding-right:0rem;
+}
+.image-map {
+  padding-right:0rem;
+}
+}
+
+
 .block{
   border-bottom: 0.025em solid #333;
   display: inline-block;
