@@ -473,6 +473,12 @@ input[id='quantity'] {
   color: #202021;
 }
 
+/*Styling for product page*/
+.productPrice {
+  margin:0rem;
+  text-align:left;
+}
+
 /*Styling for paragraph*/
 .paragraph {
   font-family: Adobe Devanagari; /*font for this paragraph class is Adobe Devangari*/
