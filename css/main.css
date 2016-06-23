@@ -592,6 +592,16 @@ input[id='quantity'] {
   padding: 0rem 1.5rem 0rem 1.5rem;
 }
 
+.ketchupColor { /*for Franco bike*/
+  display: inline-block;
+  margin: 0em;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #e85e4d;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
 .mintCircle {
     display: inline-block;
     margin: 0em;
