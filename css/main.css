@@ -525,7 +525,7 @@ input[id='quantity'] {
 /*Product specific color options*/
 .mintColor { /*for Agatha bike*/
   display: inline-block;
-  margin: 0em;
+  margin-top: 0.3em;
   width: 25px;
   height: 25px;
   border-radius: 12.5px;
@@ -535,7 +535,7 @@ input[id='quantity'] {
 
 .tealColor { /*for Agatha bike*/
   display: inline-block;
-  margin: 0em;
+  margin-top: 0.3em;
   width: 25px;
   height: 25px;
   border-radius: 12.5px;
@@ -545,7 +545,7 @@ input[id='quantity'] {
 
 .brickColor { /*for Agatha bike*/
   display: inline-block;
-  margin: 0em;
+  margin-top: 0.3em;
   width: 25px;
   height: 25px;
   border-radius: 12.5px;
@@ -555,7 +555,7 @@ input[id='quantity'] {
 
 .mustardColor { /*for Franco bike*/
   display: inline-block;
-  margin: 0em;
+  margin-top: 0.3em;
   width: 25px;
   height: 25px;
   border-radius: 12.5px;
@@ -565,7 +565,7 @@ input[id='quantity'] {
 
 .skyColor { /*for Franco bike*/
   display: inline-block;
-  margin: 0em;
+  margin-top: 0.3em;
   width: 25px;
   height: 25px;
   border-radius: 12.5px;
@@ -575,11 +575,51 @@ input[id='quantity'] {
 
 .ketchupColor { /*for Franco bike*/
   display: inline-block;
-  margin: 0em;
+  margin-top: 0.3em;
   width: 25px;
   height: 25px;
   border-radius: 12.5px;
   background-color: #e85e4d;
+  text-align: left;
+}
+
+.blackColor {
+  display: inline-block;
+  margin-top: 0.3em;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #000000;
+  text-align: left;
+}
+
+.darkblueColor {
+  display: inline-block;
+  margin-top: 0.3em;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #172345;
+  text-align: left;
+}
+
+.aquaColor {
+  display: inline-block;
+  margin-top: 0.3em;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #8dcfab;
+  text-align: left;
+}
+
+.cardboardColor {
+  display: inline-block;
+  margin-top: 0.3em;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #bdae96;
   text-align: left;
 }
 
@@ -594,7 +634,9 @@ input[id='quantity'] {
 }
 
 .mintColor:hover, .mintColor:active, .tealColor:hover, .tealColor:active, .brickColor:hover, .brickColor:active, 
-.mustardColor:hover, .mustardColor:active, .skyColor:hover, .skyColor:active, .ketchupColor:hover, .ketchupColor:active {
+.mustardColor:hover, .mustardColor:active, .skyColor:hover, .skyColor:active, .ketchupColor:hover, .ketchupColor:active
+.blackColor:hover, .blackColor:active, .darkblueColor:hover, .darkblueColor:active, .aquaColor:hover, .aquaColor:active
+.cardboardColor:hover, .cardboardColor:active {
   opacity: 0.5;
 }
 
