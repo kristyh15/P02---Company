@@ -21,7 +21,7 @@
 body {
   font-family: Brandon Grotesque, Adobe Devanagari, sans-serif; 
   padding: 1.5rem;
-  background-color: #f9f9fa;
+  background-color: #ffffff;
 }
 
 
@@ -60,7 +60,6 @@ nav {
   margin-bottom: 1em;
   padding-bottom: 1em;
   padding-top: 1em;
-  border-bottom: 0.05em solid #333;
   background-color: #f9f9f9;
   z-index: 10;
 }
@@ -390,9 +389,9 @@ input[id='quantity'] {
   text-align: left;
   text-decoration: none;
   color: #818476;
-  margin: 0;
+  margin:0rem;
   clear: left;
-  padding-top:0.75rem;
+  padding-top:0.55rem;
 }
 
 .section-info {
@@ -437,22 +436,6 @@ input[id='quantity'] {
   margin-bottom: 0.2rem;
 }
 
-
-.paralist {
-  margin-bottom: 0.5em;
-}
-
-.title-info {
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: left;
-  text-decoration: none;
-  color: #818476;
-  margin: 0;
-  clear: left;
-  padding-top:0rem;
-}
-
 /*Styling for about page*/
 .title-about {
   font-size: 1rem;
@@ -463,14 +446,6 @@ input[id='quantity'] {
   margin: 0;
   clear: left;
   padding-top:0.75rem;
-}
-
-.info-about {
-  font-family: Adobe Devanagari; /*font for this paragraph class is Adobe Devangari*/
-  font-size: 0.85rem; 
-  text-align: center;
-  max-width: 40rem; /*line length*/
-  color: #202021;
 }
 
 /*Styling for product page*/
@@ -491,7 +466,7 @@ input[id='quantity'] {
 
 /*Styling for product description*/
 .prod-description {
-  font-family: Adobe Devanagari; /*font for this paragraph class is Adobe Devangari*/
+  font-family: Adobe Devanagari; /*font for this paragraph class is Adobe Devanagari*/
   font-size: 0.85rem; 
   text-align: left;
   max-width: 30rem; /*line length*/
@@ -555,7 +530,7 @@ input[id='quantity'] {
   height: 25px;
   border-radius: 12.5px;
   background-color: #c3dcd9;
-  padding: 0rem 1.5rem 0rem 1.5rem;
+  align:left;
 }
 
 .tealColor { /*for Agatha bike*/
@@ -565,17 +540,17 @@ input[id='quantity'] {
   height: 25px;
   border-radius: 12.5px;
   background-color: #83a0a4;
-  padding: 0rem 1.5rem 0rem 1.5rem;
+  align:left;
 }
 
-.burgundyColor { /*for Agatha bike*/
+.brickColor { /*for Agatha bike*/
   display: inline-block;
   margin: 0em;
   width: 25px;
   height: 25px;
   border-radius: 12.5px;
   background-color: #9e5745;
-  padding: 0rem 1.5rem 0rem 1.5rem;
+  align: left;
 }
 
 .mustardColor { /*for Franco bike*/
@@ -585,7 +560,7 @@ input[id='quantity'] {
   height: 25px;
   border-radius: 12.5px;
   background-color: #c0873e;
-  padding: 0rem 1.5rem 0rem 1.5rem;
+  align: left;
 }
 
 .skyColor { /*for Franco bike*/
@@ -595,7 +570,7 @@ input[id='quantity'] {
   height: 25px;
   border-radius: 12.5px;
   background-color: #72bfcd;
-  padding: 0rem 1.5rem 0rem 1.5rem;
+  align: left;
 }
 
 .ketchupColor { /*for Franco bike*/
@@ -605,7 +580,7 @@ input[id='quantity'] {
   height: 25px;
   border-radius: 12.5px;
   background-color: #e85e4d;
-  padding: 0rem 1.5rem 0rem 1.5rem;
+  text-align: left;
 }
 
 .mintCircle {
@@ -618,7 +593,8 @@ input[id='quantity'] {
     margin-left: 0.5em;
 }
 
-.mintColor:hover, .mintColor:active, .tealColor:hover, .tealColor:active, .burgundyColor:hover, .burgundyColor:active {
+.mintColor:hover, .mintColor:active, .tealColor:hover, .tealColor:active, .brickColor:hover, .brickColor:active, 
+.mustardColor:hover, .mustardColor:active, .skyColor:hover, .skyColor:active, .ketchupColor:hover, .ketchupColor:active {
   opacity: 0.5;
 }
 
@@ -737,8 +713,13 @@ padding-left: 0em;
   padding-right:2.5rem;
 }
 
+
 .image-map {
   padding-right:2.5rem;
+}
+
+.image-rider {
+  padding-right:0rem;
 }
 
 @media (max-width: 40em) {
@@ -748,6 +729,10 @@ padding-left: 0em;
 .image-map {
   padding-right:0rem;
 }
+.image-rider {
+ padding-right:0rem;
+}
+
 }
 
 
