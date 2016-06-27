@@ -269,6 +269,17 @@ li {
   opacity: 0.5; /* change in-text link and button opacity to 70% on mouse hover */
 }
 
+/*Styling for the underlined in-text link*/
+
+.in-text-underline {
+  color: #202021;
+}
+
+.in-text-underline:hover, .in-text-underline:focus {
+  opacity: 0.5;
+}
+
+
 /*Styling for the in-text link ALT*/
 
 .in-text-link-alt {
@@ -279,7 +290,7 @@ li {
 }
 
 .in-text-link-alt:hover, .in-text-link-alt:focus {
-  opacity: 0.7; /* change in-text link and button opacity to 70% on mouse hover */
+  opacity: 0.5; /* change in-text link and button opacity to 50% on mouse hover */
 }
 
 /* Styling for the text input field */
@@ -331,7 +342,7 @@ input[id='quantity'] {
     text-align: center;
     color: #202021;
     margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.25rem;
 }
 
 @media (max-width: 40em) {
@@ -633,9 +644,15 @@ input[id='quantity'] {
     margin-left: 0.5em;
 }
 
-.mintColor:hover, .mintColor:active, .tealColor:hover, .tealColor:active, .brickColor:hover, .brickColor:active, 
-.mustardColor:hover, .mustardColor:active, .skyColor:hover, .skyColor:active, .ketchupColor:hover, .ketchupColor:active
-.blackColor:hover, .blackColor:active, .darkblueColor:hover, .darkblueColor:active, .aquaColor:hover, .aquaColor:active
+.mintColor:hover, .mintColor:active, 
+.tealColor:hover, .tealColor:active, 
+.brickColor:hover, .brickColor:active, 
+.mustardColor:hover, .mustardColor:active, 
+.skyColor:hover, .skyColor:active, 
+.ketchupColor:hover, .ketchupColor:active,
+.blackColor:hover, .blackColor:active, 
+.darkblueColor:hover, .darkblueColor:active, 
+.aquaColor:hover, .aquaColor:active,
 .cardboardColor:hover, .cardboardColor:active {
   opacity: 0.5;
 }
