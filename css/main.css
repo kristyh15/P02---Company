@@ -789,14 +789,16 @@ iframe {
 padding-left: 0em;
 }
 
+
+/*Styling with breakpoints*/
+
+/*Styling for product detail page*/
+
 .image-prod-main {
   flex-wrap:wrap;
   margin:0;
   padding-right:0.5rem;
 }
-
-
-/*Styling with breakpoints*/
 
 .thumbnail_views {
   flex-wrap: wrap;
@@ -934,6 +936,16 @@ padding-left: 0em;
   select {
     width: 100%; 
   }
+  .comment {
+    width: 100%;
+  }
+}
+
+.comment {
+  font-size: 0.85rem;
+  font-family: AdobeDevanagari-Regular;
+  width: 100%;
+  height: 10rem;
 }
 
 
