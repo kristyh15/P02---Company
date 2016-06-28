@@ -320,6 +320,7 @@ input {
 }
 
 input[type='checkbox'] {
+  display: inline-block;
   height: 1em;
   padding-left: 1em;
   padding-bottom: 3em;
