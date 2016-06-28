@@ -132,82 +132,60 @@
 <!--end product details-->
 
 
-<!--start leave a review-->
-<div class="grid-col-m-12of12 grid-col-7of12">
-  <p> <br> <h1 class="heading3" style="text-align: center;">Leave a Review:</h1> </p>
-  <br>
-</div>
-
-<div class="grid-col-m-12of12 grid-col-6of12" style="text-align: left">
-  <form action="#">
-    First name:
-    <br>
-    <input type="text" name="firstname"><br><br>
-    Last name:
-    <br>
-    <input type="text" name="lastname"><br><br>
-    <a class="button-fill" href="#" value="Submit"> Submit </a>
-  </form>
-</div>
-
-<!--end leave a review-->
-
-
-<!--start star rating system and comments-->
-<div class="grid-col-m-12of12 grid-col-5of12">
-  <p> <br> <h1 class="heading3" style="text-align: center;">Customer Reviews:</h1> </p>
-  <hr> <!-- line -->
-  <p class="reviewer-name starReviewer" style="text-align: left;"> Mary Ann &nbsp </p>
-  <p class="paragraph"> 
-    <strong class="review-title"> Son refuses to ride bus again after trying bike. </strong> 
-    <br>
-    Incredible find! Love the sturdy quality and can't wait to take it for a spin after work. My son rode it for half an hour to swimming practice and said he's never taking the bus again.</p>
-  <hr> <!-- line -->
-  <p class="reviewer-name starReviewer" style="text-align: left;"> James Leno P. &nbsp </p>
-  <p class="paragraph"> 
-     <strong class="review-title"> Beautiful bike. Design and build quality is outstanding! </strong> 
-     <br>
-     Very aesthetically nice bike. Five people have already asked me where I got the bike within two days of riding it out by the seawall. It came in the mail nicely packaged as well and everything was easy to put together. Highly recommend!</p>
-  <hr> <!-- line -->
-  <p class="reviewer-name starReviewer" style="text-align: left;"> Willins Henderson &nbsp </p>
-  <p class="paragraph"> 
-     <strong class="review-title"> Nice bike! </strong> 
-     <br> 
-     Easy to carry around as it is very lightweight. Tires can handle wet and bumpy surfaces very well. Super happy with this purchase.
-  </p>
-<!--end star rating system and comments-->
-
-
-
-</div>
-
-
-
-
-
-
-<!--end star rating system and comments-->
-
-
-
-
-
-
-
-
-<!--start feedback/comments section-->
- <!--     <div class="grid-col-m-12of12 grid-col-12of12">
-        <h1 class="heading4" style="padding-top:2rem">Comments:</h1>
+<!--start leave a review form fields-->
+      <div class="grid-col-m-12of12 grid-col-7of12">
+        <p> <br> <h1 class="heading3" style="text-align: center;">Leave a Review:</h1> </p>
+        <br>
       </div>
 
-      <div class="grid-col-m-12of12 grid-col-5of12" style="text-align:left">
+      <div class="grid-col-m-12of12 grid-col-6of12" style="text-align: left">
+        <p> *All fields are required to submit a review. </p>
         <form method="post" action="#">
-          <label for="form-message"></label>  
-          <textarea id="form-message" placeholder="Comment here..." rows="8" cols="87"></textarea>
+          First name:
+          <br>
+          <input type="text" name="firstname" required="required"><br><br>
+          Last name:
+          <br>
+          <input type="text" name="lastname" required="required"><br><br>
+          Comment Title:
+          <br>
+          <input type="text" name="commenttitle" required="required"><br><br>
+          Comment:
+          <br>
+          <label for="commentinput"></label>  
+          <textarea class="comment" name="commentinput" required="required"> </textarea>
+          <br>
+          <br>
+          <a class="button-fill" href="#"> Submit </a>
         </form>
-        <a class="button-fill" href="#">Submit</a>
-      </div> -->
-<!--end feedback/comments section-->
+      </div>
+<!--end leave a review form fields-->
+
+
+<!--start customer star rating system and comments-->
+      <div class="grid-col-m-12of12 grid-col-5of12">
+        <p> <br> <h1 class="heading3" style="text-align: center;">Customer Reviews:</h1> </p>
+        <hr> <!-- line -->
+        <p class="reviewer-name starReviewer" style="text-align: left;"> Mary Ann &nbsp </p>
+        <p class="paragraph"> 
+          <strong class="review-title"> Son refuses to ride bus again after trying bike. </strong> 
+          <br>
+          Incredible find! Love the sturdy quality and can't wait to take it for a spin after work. My son rode it for half an hour to swimming practice and said he's never taking the bus again.</p>
+        <hr> <!-- line -->
+        <p class="reviewer-name starReviewer" style="text-align: left;"> James Leno P. &nbsp </p>
+        <p class="paragraph"> 
+          <strong class="review-title"> Beautiful bike. Design and build quality is outstanding! </strong> 
+          <br>
+          Very aesthetically nice bike. Five people have already asked me where I got the bike within two days of riding it out by the seawall. It came in the mail nicely packaged as well and everything was easy to put together. Highly recommend!</p>
+        <hr> <!-- line -->
+        <p class="reviewer-name starReviewer" style="text-align: left;"> Willins Henderson &nbsp </p>
+        <p class="paragraph"> 
+          <strong class="review-title"> Nice bike! </strong> 
+          <br> 
+          Easy to carry around as it is very lightweight. Tires can handle wet and bumpy surfaces very well. Super happy with this purchase.
+        </p>
+      </div>
+<!--end customer star rating system and comments-->
 
 
     </div>
