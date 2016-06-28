@@ -297,7 +297,7 @@ li {
 
 /* Styling for the text input field */
 form {
-  display: inline-block;
+  display: block;
   padding: 0.5rem 0rem;
   font-size: 0.85rem;
   text-transform: uppercase;
@@ -311,7 +311,7 @@ label {
 }
 
 input {
-  display: inline-block;
+  display: block;
   width: 40em;
   height: 3.5em;
   color: #000;
