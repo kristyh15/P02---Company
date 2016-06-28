@@ -12,8 +12,8 @@
        url('fonts/Brandon_bld.otf') format('opentype');
 
   font-family: "Adobe Devanagari";
-  font-weight: normal;
-  font-style: normal;
+  font-weight: normal, bold;
+  font-style: normal, bold;
   src: url('fonts/AdobeDevanagari-Regular.otf') format('opentype');
 }
 
@@ -891,8 +891,46 @@ padding-left: 0em;
    margin:0rem;
 }
 
+.starReviewer:after {
+   content: "\2605" "\2605" "\2605" "\2605" "\2605";
+   color: #f7b50c;
+   font-size: 1rem;
+   text-align: left;
+   padding-top:0rem;
+   margin:0rem;
+}
 
+.reviewer-name {
+  font-size:0.9rem;
+  font-family: Brandon Grotesque;
+  font-weight: bold;
+  color: #000000;
+}
 
+.reviewer-verified {
+  font-size: 0.85rem;
+  font-family: Brandon Grotesque;
+  font-weight: normal;
+  color: #999999;
+}
 
+.review-title {
+  font-size: 1.025rem;
+  font-family: Adobe Devanagari;
+  font-weight: bold;
+  color: #202021;
+}
+
+/*makes text-input and form fields responsive*/
+
+@media (max-width: 40em) {
+  form {
+    width: 100%;
+  }
+  input[type=text],
+  select {
+    width: 100%; 
+  }
+}
 
 
