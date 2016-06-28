@@ -357,8 +357,8 @@ input[id='quantity'] {
     font-weight: bold;
     text-align: left;
     color: #202021;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
 }
 
 .heading3 {
@@ -381,13 +381,32 @@ input[id='quantity'] {
 
 
 .prod-title-specs {
-    font-size: 1rem;
-    font-weight: bold;
-    text-align: left;
-    color: #818476;
-    padding: 0rem 0rem 0rem 1.5rem;
-    margin-bottom: 0;
-    clear: left;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  color: #818476;
+  padding: 0rem 0rem 0rem 1.5rem;
+  margin-bottom: 0;
+  clear: left;
+}
+
+.prod-price {
+  font-size:1.4rem;
+  font-weight: bold;
+  text-align: left;
+  color: #202021;
+  margin:0rem;
+  padding:0rem;
+}
+
+.prod-sku {
+  font-size:0.85rem;
+  font-weight:normal;
+  text-align: left;
+  color: #888888;
+  margin: 0rem;
+  padding: 0rem;
+  clear: left;
 }
 
 .paralist {
@@ -571,7 +590,7 @@ input[id='quantity'] {
   height: 25px;
   border-radius: 12.5px;
   background-color: #c0873e;
-  align: left;
+  text-align: left;
 }
 
 .skyColor { /*for Franco bike*/
@@ -581,7 +600,7 @@ input[id='quantity'] {
   height: 25px;
   border-radius: 12.5px;
   background-color: #72bfcd;
-  align: left;
+  text-align: left;
 }
 
 .ketchupColor { /*for Franco bike*/
@@ -698,8 +717,6 @@ iframe {
 
 /*Styling and dev containers for Cart and Checkout*/
 
-
-
 .checkoutelement{
   text-align: left;
   padding-bottom: 2em;
@@ -767,11 +784,51 @@ padding-left: 0em;
 }
 }
 */
+.image-prod-main {
+  flex-wrap:wrap;
+  margin:0;
+  padding-right:0.5rem;
+}
+
+.thumbnail_views {
+  flex-wrap: wrap;
+  position:relative;
+  clear:both;
+}
+
+.image-prod-thumbnails {
+  flex-wrap: wrap;
+  padding-right: 1.25rem;
+}
+
+@media (max-width: 1118px) {
+  .image-prod-thumbnails {
+    width: 100%;
+    padding: 0rem;
+  }
+}
+
+@media (max-width: 70em) {
+  .image-prod-thumbnails {
+    width: 80%;
+    padding: 0rem;
+  }
+}
+
+@media (max-width: 40em) {
+  .image-prod-thumbnails {
+    width: 31.5%;
+    padding: 0rem;
+  }
+}
+
+.image-prod-thumbnails:focus, .image-prod-thumbnails:hover {
+  opacity: 0.5;
+}
 
 .image-prod-details {
   padding-right:2.5rem;
 }
-
 
 .image-map {
   padding-right:2.5rem;
@@ -782,18 +839,16 @@ padding-left: 0em;
 }
 
 @media (max-width: 40em) {
-.image-prod-details {
-  padding-right:0rem;
+  .image-prod-details {
+    padding-right:0rem;
+  }
+  .image-map {
+    padding-right:0rem;
+  }
+  .image-rider {
+    padding-right:0rem;
+  }
 }
-.image-map {
-  padding-right:0rem;
-}
-.image-rider {
- padding-right:0rem;
-}
-
-}
-
 
 .block{
   border-bottom: 0.025em solid #333;
@@ -816,11 +871,28 @@ padding-left: 0em;
   .image-route-rightcolumn{
     margin: 0em;
     margin-bottom: 1em;
-}
+  }
   .image-route-leftcolumn{
     margin: 0em;
     margin-bottom: 1em;
+  }
 }
 
+
+
+/*Styling for star rating system in product detail view*/
+
+.star:after {
+   content: "\2605" "\2605" "\2605" "\2605" "\2605";
+   color: #f7b50c;
+   font-size: 1.35rem;
+   text-align: left;
+   padding-top:0rem;
+   margin:0rem;
 }
+
+
+
+
+
 
