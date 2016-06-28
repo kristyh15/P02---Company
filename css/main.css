@@ -58,8 +58,6 @@ section p {
 nav {
   width: 100%;
   margin-bottom: 1em;
-  padding-bottom: 1em;
-  padding-top: 1em;
   border-bottom: 0.05em solid #333;
   background-color: #ffffff;
   z-index: 10;
@@ -150,7 +148,7 @@ li {
 .button-nav { /*refer to the .buttom-nav class in html*/
   display: inline-block;
   margin: 0em;
-  padding: 0.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
+  padding: 1.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
   width: 100%;
   color: #202021; /*button text color*/
   background-color: #ffffff; /*button background color*/
