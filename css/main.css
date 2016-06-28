@@ -58,7 +58,6 @@ section p {
 nav {
   width: 100%;
   margin-bottom: 1em;
-  border-bottom: 0.05em solid #333;
   background-color: #ffffff;
   z-index: 10;
 }
