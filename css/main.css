@@ -764,12 +764,36 @@ iframe {
   padding-left: 2.1em;
 }
 
+.cartsubtitle{
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #818476;
+  margin: 0;
+  clear: left;
+  padding-top:0.75rem;
+}
+
 .cartinfo{
   text-align: left;
   padding-bottom: 0.5em;
   font-family: Adobe Devanagari;
   font-weight: normal;
   padding-left: 2.5em;
+}
+
+@media (max-width: 40em) {
+  .cartinfo{
+    padding-left: 0em
+  }
+  .cartsubtitle{
+    display: none !important;
+    
+  }
+  .carttitle{
+    padding-left: 0em
+  }
 }
 
 .cartimage{
@@ -785,10 +809,6 @@ iframe {
   display: inline-block;
 }
 
-.cartinfo{
-padding-left: 0em;
-}
-
 .image-prod-main {
   flex-wrap:wrap;
   margin:0;
@@ -796,7 +816,7 @@ padding-left: 0em;
 }
 
 
-/*Styling with breakpoints*/
+/*Styling with breakpoints for the plan trip and route pages*/
 
 .thumbnail_views {
   flex-wrap: wrap;
