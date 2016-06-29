@@ -158,6 +158,7 @@ li {
   border-color: #818476;
   border-radius: 5em; /*rounding button corners*/
   text-decoration: none; /*setting to none removes underline from texts*/
+  text-transform: initial;
   -webkit-transition: background-color 0.35s ease-out; /*how fast the background color of the button changes to green (#818476) on mouse hover*/
   transition: background-color 0.35s ease-out;
 }
@@ -399,6 +400,16 @@ input[id='quantity'] {
   clear: left;
 }
 
+.reviewer-date {
+  font-size:0.7rem;
+  font-weight:normal;
+  text-align: left;
+  color: #888888;
+  margin: 0rem;
+  padding: 0rem;
+  clear: left;
+}
+
 .paralist {
   margin-bottom: 0.5em;
 }
@@ -546,8 +557,8 @@ input[id='quantity'] {
 .mintColor { /*for Agatha bike*/
   display: inline-block;
   margin-top: 0.3em;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 12.5px;
   background-color: #c3dcd9;
   align:left;
@@ -556,8 +567,8 @@ input[id='quantity'] {
 .tealColor { /*for Agatha bike*/
   display: inline-block;
   margin-top: 0.3em;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 12.5px;
   background-color: #83a0a4;
   align:left;
@@ -566,8 +577,8 @@ input[id='quantity'] {
 .brickColor { /*for Agatha bike*/
   display: inline-block;
   margin-top: 0.3em;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 12.5px;
   background-color: #9e5745;
   align: left;
@@ -576,8 +587,8 @@ input[id='quantity'] {
 .mustardColor { /*for Franco bike*/
   display: inline-block;
   margin-top: 0.3em;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 12.5px;
   background-color: #c0873e;
   text-align: left;
@@ -586,8 +597,8 @@ input[id='quantity'] {
 .skyColor { /*for Franco bike*/
   display: inline-block;
   margin-top: 0.3em;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 12.5px;
   background-color: #72bfcd;
   text-align: left;
@@ -596,8 +607,8 @@ input[id='quantity'] {
 .ketchupColor { /*for Franco bike*/
   display: inline-block;
   margin-top: 0.3em;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 12.5px;
   background-color: #e85e4d;
   text-align: left;
@@ -606,8 +617,8 @@ input[id='quantity'] {
 .blackColor {
   display: inline-block;
   margin-top: 0.3em;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 12.5px;
   background-color: #000000;
   text-align: left;
@@ -616,8 +627,8 @@ input[id='quantity'] {
 .darkblueColor {
   display: inline-block;
   margin-top: 0.3em;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 12.5px;
   background-color: #172345;
   text-align: left;
@@ -626,8 +637,8 @@ input[id='quantity'] {
 .aquaColor {
   display: inline-block;
   margin-top: 0.3em;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 12.5px;
   background-color: #8dcfab;
   text-align: left;
@@ -636,8 +647,8 @@ input[id='quantity'] {
 .cardboardColor {
   display: inline-block;
   margin-top: 0.3em;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 12.5px;
   background-color: #bdae96;
   text-align: left;
@@ -784,6 +795,14 @@ padding-left: 0em;
 /*Styling with breakpoints*/
 
 /*Styling for product detail page*/
+.image-detail {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #818476;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
 
 .image-prod-main {
   flex-wrap:wrap;
@@ -882,13 +901,6 @@ padding-left: 0em;
   color: #000000;
 }
 
-.reviewer-verified {
-  font-size: 0.85rem;
-  font-family: Brandon Grotesque;
-  font-weight: normal;
-  color: #999999;
-}
-
 .review-headline {
   font-size: 1.025rem;
   font-family: Adobe Devanagari;
@@ -918,3 +930,24 @@ padding-left: 0em;
   height: 10rem;
   resize: vertical;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
