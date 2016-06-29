@@ -62,11 +62,6 @@ nav {
   z-index: 10;
 }
 
-nav img{
-  float: left;
-}
-
-
 @media (min-width: 40em) {
   nav{
     top: 0em;
@@ -143,7 +138,7 @@ li {
   INTERACTIVE ELEMENTS -------------------
 */
 
-/* Styling for the navigation button */
+/* Styling for the navigation*/
 .button-nav { /*refer to the .buttom-nav class in html*/
   display: inline-block;
   margin: 0em;
@@ -157,6 +152,28 @@ li {
 }
 
 .button-nav:hover, .button-nav:focus { /*comma specifies the two states we want; the two states here are hover and focus*/
+  background-color: #EEEDED; /*change the button background color to #818476 on mouse hover*/
+}
+
+.logo {
+  width: 30px;
+  padding-top: 0.5em;
+}
+
+.logobutton{
+  display: inline-block;
+  margin: 0em;
+  padding: 0.89em 1.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
+  width: 100%;
+  height: 100%;
+  color: #202021; /*button text color*/
+  background-color: #ffffff; /*button background color*/
+  text-decoration: none; /*setting to none removes underline from texts*/
+  -webkit-transition: background-color 0.35s ease-out; /*how fast the background color of the button changes to green (#818476) on mouse hover*/
+  transition: background-color 0.35s ease-out;
+}
+
+.logobutton:hover, .logobutton:focus { /*comma specifies the two states we want; the two states here are hover and focus*/
   background-color: #EEEDED; /*change the button background color to #818476 on mouse hover*/
 }
 
