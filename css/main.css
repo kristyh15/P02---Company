@@ -739,7 +739,8 @@ iframe {
 .checkouttitle{
   text-align: left;
   padding-left: 0.5em;
-  padding-bottom: 1em;
+  padding-right: 1em;
+
 }
 
 .checkoutinfo{
@@ -759,7 +760,7 @@ iframe {
 
 @media (max-width: 40em) {
   .checkoutimage {
-    max-width: 525px;
+    max-width: 550px;
   }
 }
 
