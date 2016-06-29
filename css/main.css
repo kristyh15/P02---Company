@@ -190,7 +190,7 @@ li {
 
 /*Styling for the drop-down menu*/
 .dropdown-button {
-  display: block;
+  display: inline-block;
   font-family: Brandon Grotesque;
   font-size: 16px;
   padding: 0.55em 0.8em;
@@ -214,7 +214,6 @@ li {
 }
 
 .dropdown-quantity {
-  display: block;
   font-family: Brandon Grotesque;
   font-size: 16px;
   padding: 0.55em 0.8em;
@@ -228,6 +227,7 @@ li {
 
 .dropdown {
   display: block;
+  position: relative;
   padding-bottom: 1em;
 }
 
@@ -251,6 +251,7 @@ li {
 
 .dropdown:hover .dropdown-content {
   display: block;
+
 }
 
 .dropdown:hover .dropdown-button {
