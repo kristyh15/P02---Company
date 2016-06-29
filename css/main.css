@@ -76,11 +76,9 @@ nav img{
     left: 0em;
     position: fixed;
 }
-  
   .header1{
     padding-top: 2em;
   }
-
 }
 
 
@@ -128,19 +126,6 @@ li {
   padding-top: 2em;
 }
 
-li {
-  font-family: Adobe Devanagari;
-  font-weight: normal;
-  font-size: 0.85rem;
-  text-align: left;
-}
-
-.headergap {
-  position: relative;
-  padding-bottom: 2em;
-  padding-top: 2em;
-}
-
 
 /* 
   INTERACTIVE ELEMENTS -------------------
@@ -167,7 +152,7 @@ li {
 .button-fill {
   display: inline-block;
   padding: 0.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
-  color: #f9f9fa; /*button text color is off-white*/
+  color: #ffffff; /*button text color is off-white*/
   background-color: #818476; /*button background color is green*/
   border-style: solid; /*button border is a solid line on all four sides*/
   border-color: #818476;
@@ -177,12 +162,12 @@ li {
   transition: background-color 0.35s ease-out;
 }
 
-/*Styline for buttons with outline*/
+/*Styling for buttons with outline*/
 .button-outline {
   display: inline-block;
   padding: 0.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
   color: #818476; /*button text color is green*/
-  background-color: #f9f9fa; /*button background color is off-white*/
+  background-color: #ffffff; /*button background color is white*/
   border-style: solid; /*button border is a solid line on all four sides*/
   border-color: #818476; /*button border color is green*/
   border-radius: 5em; /*rounding button corners*/
@@ -702,6 +687,12 @@ input[id='quantity'] {
   text-decoration: none;
 }
 
+.prod-limited {
+  font-family: Brandon Grotesque;
+  font-weight: normal;
+  color: #83a0a4;
+}
+
 /*Styling for grid*/
 .grid {
   display: flex;
@@ -884,27 +875,6 @@ padding-left: 0em;
 }
 
 
-
-/*Styling for star rating system in product detail view*/
-
-.star:after {
-   content: "\2605" "\2605" "\2605" "\2605" "\2605";
-   color: #f7b50c;
-   font-size: 1.35rem;
-   text-align: left;
-   padding-top:0rem;
-   margin:0rem;
-}
-
-.starReviewer:after {
-   content: "\2605" "\2605" "\2605" "\2605" "\2605";
-   color: #f7b50c;
-   font-size: 1rem;
-   text-align: left;
-   padding-top:0rem;
-   margin:0rem;
-}
-
 .reviewer-name {
   font-size:0.9rem;
   font-family: Brandon Grotesque;
@@ -919,7 +889,7 @@ padding-left: 0em;
   color: #999999;
 }
 
-.review-title {
+.review-headline {
   font-size: 1.025rem;
   font-family: Adobe Devanagari;
   font-weight: bold;
@@ -946,6 +916,5 @@ padding-left: 0em;
   font-family: Adobe Devanagari;
   width: 100%;
   height: 10rem;
+  resize: vertical;
 }
-
-
