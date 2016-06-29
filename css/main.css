@@ -33,7 +33,7 @@ section:not([id]) {
 section h2 {
   margin-top: 0;
   margin-bottom: 1em;
-  border-bottom: 0.025em solid #333;
+  border-bottom: 0.08em solid #333;
   padding-bottom: 0.05em;
 }
 
@@ -196,7 +196,7 @@ li {
   padding: 0.55em 0.8em;
   color: #f9f9fa; /*button text color is off-white*/
   background-color: #818476; /*button background color is green*/
-  border: none;
+  border-width: 0.01em;
   text-decoration: none; /*setting to none removes underline from texts*/
 }
 
@@ -209,7 +209,7 @@ li {
   color: #202021; /*button text color is grey*/
   background-color: #ffffff; /*button background color is white*/
   border-color: rgba(35, 7, 7, 0.16);
-  border-width: 0.001em;
+  border-width: 0.01em;
   text-decoration: none; /*setting to none removes underline from texts*/
 }
 
@@ -221,7 +221,7 @@ li {
   color: #202021; /*button text color is grey*/
   background-color: #ffffff; /*button background color is white*/
   border-color: rgba(35, 7, 7, 0.16);
-  border-width: 0.001em;
+  border-width: 0.01em;
   text-decoration: none; /*setting to none removes underline from texts*/
 }
 
@@ -724,7 +724,7 @@ iframe {
 .checkoutheaders{
   margin-top: 0.75em;
   margin-bottom: 1em;
-  border-bottom: 0.025em solid #333;
+  border-bottom: 0.05em solid #333;
   padding-bottom: 0.05em;
 }
 
@@ -814,7 +814,7 @@ iframe {
 
 
 .block{
-  border-bottom: 0.025em solid #333;
+  border-bottom: 0.08em solid #333;
   display: inline-block;
 }
 
