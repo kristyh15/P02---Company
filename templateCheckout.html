@@ -50,7 +50,7 @@
                 <div class="grid-col-12of12" style="text-align: left">
                   <form method="post" action="#">
                     <label for="form-firstname">Email</label>
-                    <input type="text" id="form-firstname"> </input>
+                    <input type="text" id="form-firstname" style="width: 100%"> </input>
                   </form>
                 </div>
             </div>
@@ -60,10 +60,10 @@
 <!--start shipping information form-->
             <div class="checkoutelement">
               <h2 class ="checkoutheaders">2. Shipping Information</h2>
-                <div class="dropdown">
+                <div class="dropdown grid-col-checkout-6of12right">
                   <label for="dropdown-country">Select Country</label>
-                  <button class="dropdown-picker" style="width: 13.5em">Canada - CAD &#9662</button>
-                   <div class="dropdown-content" style="width: 13.5em">
+                  <button class="dropdown-picker" style="width: 100%">Canada - CAD &nbsp &#9662</button>
+                   <div class="dropdown-content" style="width: 100%">
                     <a href="#">Australia - AUD</a>
                     <a href="#">Canada - CAD</a>
                     <a href="#">Japan - JPY</a>
@@ -72,34 +72,56 @@
                     <a href="#">United States - USD</a>
                   </div>
                 </div>
-                <form method="post" action="#">
-                  <label for="form-firstname">First Name</label>
-                  <input type="text" id="form-firstname" style="width: 20em"> </input>
-                </form>
-                <form method="post" action="#">
-                  <label for="form-lastname">Last Name</label>
-                  <input type="text" id="form-lastname" style="width: 20em"> </input>
-                </form>
-                <form method="post" action="#">
-                  <label for="form-addressline">Address Line 1</label>
-                  <input type="text" id="form-addressline"> </input>
-                </form>
-                <form method="post" action="#">
-                  <label for="form-addressline">Address Line 2 (Optional)</label>
-                  <input type="text" id="form-addressline"> </input>
-                </form>
-                <form method="post" action="#">
-                  <label for="form-city">City</label>
-                  <input type="text" id="form-city" style="width: 20em"> </input>
-                </form>
-                <form method="post" action="#">
-                  <label for="form-postalcode">Postal Code</label>
-                  <input type="text" id="form-postalcode" style="width: 20em"> </input>
-                </form>
-                <form method="post" action="#">
-                  <label for="form-province">Province</label>
-                  <input type="text" id="form-province"> </input>
-                </form>
+
+                <div class="grid-col-m-6of12 grid-col-checkout-6of12right" style="text-align: left">
+                  <form method="post" action="#">
+                    <label for="form-firstname">First Name</label>
+                    <input type="text" id="form-firstname" style="width: 100%"> </input>
+                  </form>
+                </div>
+
+
+                <div class="grid-col-m-6of12 grid-col-checkout-6of12left" style="text-align: left">
+                  <form method="post" action="#">
+                    <label for="form-lastname">Last Name</label>
+                    <input type="text" id="form-lastname" style="width: 100%"> </input>
+                  </form>
+                </div>
+
+                <div class="grid-col-12of12" style="text-align: left">
+                  <form method="post" action="#">
+                    <label for="form-addressline">Address Line 1</label>
+                    <input type="text" id="form-addressline" style="width: 100%"> </input>
+                  </form>
+                </div>
+
+                <div class="grid-col-12of12" style="text-align: left">
+                  <form method="post" action="#">
+                    <label for="form-addressline">Address Line 2 (Optional)</label>
+                    <input type="text" id="form-addressline" style="width: 100%"> </input>
+                  </form>
+                </div>
+
+                <div class="grid-col-m-6of12 grid-col-checkout-6of12right" style="text-align: left">
+                  <form method="post" action="#">
+                    <label for="form-city">City</label>
+                    <input type="text" id="form-city" style="width: 100%"> </input>
+                  </form>
+                </div>
+
+                <div class="grid-col-m-6of12 grid-col-checkout-6of12left" style="text-align: left">
+                  <form method="post" action="#">
+                    <label for="form-postalcode">Postal Code</label>
+                    <input type="text" id="form-postalcode" style="width: 100%"> </input>
+                  </form>
+                </div>
+
+                <div class="grid-col-12of12" style="text-align: left">
+                  <form method="post" action="#">
+                    <label for="form-province">Province</label>
+                    <input type="text" id="form-province" style="width: 100%"> </input>
+                  </form>
+                </div>
             </div>
 <!--end shipping information form-->
 
@@ -110,55 +132,60 @@
               <form action="demo_form.asp" method="get" style="padding-bottom: 1em">
                 <input type="checkbox" name="Shipping" checked="checked"> My billing address is the same as my shipping address.<br>
               </form>
-              <div class="dropdown">
+              <div class="dropdown grid-col-checkout-6of12right">
                 <label for="dropdown-credit">Select Credit Card</label>
-                <button class="dropdown-picker" style="width: 13.5em">Visa &#9662</button>
-                <div class="dropdown-content" style="width: 13.5em">
+                <button class="dropdown-picker" style="width: 100%">Visa &nbsp &#9662</button>
+                <div class="dropdown-content" style="width: 100%">
                   <a href="#">American Express</a>
                   <a href="#">Mastercard</a>
                   <a href="#">Visa</a>
                 </div>
               </div>
-              <form method="post" action="#">
-                <label for="form-cardinfo">Card Number</label>
-                <input type="text" id="form-cardinfoe"> </input>
-              </form>
-              <form method="post" action="#">
-                <label for="form-cardname">Cardholder Name</label>
-                <input type="text" id="form-cardname"> </input>
-              </form>
-              <form method="post" action="#">
-                <label for="form-expiration">Expiration</label>
-                <input type="text" id="form-expiration" style="width: 20em" placeholder="mm/yy"> </input>
-              </form>
-              <form method="post" action="#">
-                <label for="form-cvv">CVV</label>
-                <input type="text" id="form-cvv" style="width: 20em"> </input>
-              </form>         
+
+              <div class="grid-col-12of12" style="text-align: left">
+                <form method="post" action="#">
+                  <label for="form-cardinfo">Card Number</label>
+                  <input type="text" id="form-cardinfoe" style="width: 100%"></input>
+                </form>
+              </div>
+
+              <div class="grid-col-12of12" style="text-align: left">
+                <form method="post" action="#">
+                  <label for="form-cardname">Cardholder Name</label>
+                  <input type="text" id="form-cardname" style="width: 100%"> </input>
+                </form>
+              </div>
+
+              <div class="grid-col-m-6of12 grid-col-checkout-6of12right" style="text-align: left">
+                <form method="post" action="#">
+                  <label for="form-expiration">Expiration</label>
+                  <input type="text" id="form-expiration" style="width: 100%" placeholder="mm/yy"> </input>
+                </form>
+              </div>
+
+              <div class="grid-col-m-6of12 grid-col-checkout-6of12left" style="text-align: left">
+                <form method="post" action="#">
+                  <label for="form-cvv">CVV</label>
+                  <input type="text" id="form-cvv" style="width: 100%"> </input>
+                </form>
+              </div>  
             </div>
+          </div>
 <!--end payment information form-->
-
-
-<!--start order button-->
-            <div class="grid-col-m-12of12 grid-col-6of12" style="margin-bottom: 2em">
-              <a class="button-fill" href="http://www.sfu.ca/~kristyh/iat339/P02/Week%2006%20-%20June%2016/templateConfirmation.html" style="float: left">Confirm and Review Order</a>
-            </div>
-        </div>
-<!--end order button-->
 
 
 <!--start order summary-->
         <div class="grid-col-m-12of12 grid-col-checkout-6of12">
           <h2  class ="checkoutheaders" style="text-align: left">Order Summary</h2>
-            <div class="grid-col-m-6of12 grid-col-6of12">
+            <div class="grid-col-m-5of12 grid-col-6of12">
               <img class="checkoutimage" src="img/bike_agatha.jpg">
             </div>
-            <div class="grid-col-m-6of12 grid-col-6of12">
-              <div class="grid-col-cart-8of12 grid-col-m-8of12 grid-col-8of12">
+            <div class="grid-col-m-7of12 grid-col-6of12">
+              <div class="grid-col-cart-10of12 grid-col-m-10of12 grid-col-9of12">
                 <h3 class="checkouttitle">Agatha Bike</h3>
               </div>
-              <div class="grid-col-cart-2of12 grid-col-m-2of12 grid-col-4of12">
-                <h3 class="checkouttitle">$193</h3>
+              <div class="grid-col-cart-2of12 grid-col-m-2of12 grid-col-3of12">
+                <h3 class="checkouttitle" style="text-align: right">$193</h3>
               </div>
               <div class= "checkoutinfo">
                 <div class="grid-col-m-8of12 grid-col-8of12" style="text-align: left"> Size: M(55cm) </div>
@@ -171,17 +198,28 @@
 <!--end order summary-->
 
 <!--start total summary-->
-
-              <div class="grid-col-cart-8of12 grid-col-m-10of12 grid-col-10of12">
-                <h3 style="text-align: left">Total:</h3>
+              <div class="block grid-col-cart-12of12 grid-col-m-12of12 grid-col-12of12">
               </div>
 
-              <div class="grid-col-cart-2of12 grid-col-m-2of12 grid-col-2of12">
-                <h3 class="checkouttitle">$193</h3>
+              <div class="grid-col-cart-10of12 grid-col-m-10of12 grid-col-9of12">
+                <h3 style="text-align: right">Total Cost:</h3>
+              </div>
+
+              <div class="grid-col-cart-2of12 grid-col-m-2of12 grid-col-3of12">
+                <h3 class="checkouttitle" style="text-align: right">$193</h3>
               </div>
         </div>
       </div>
-<!--end-->
+<!--end of total summary-->
+
+<!--start order button-->
+      <div class="grid-row">
+        <div class="grid-col-m-12of12 grid-col-checkout-6of12" style="margin-bottom: 2em">
+            <a class="button-fill" href="http://www.sfu.ca/~kristyh/iat339/P02/Week%2006%20-%20June%2016/templateConfirmation.html" style="float: left">Confirm and Review Order</a>
+        </div>
+      </div>
+<!--end order button-->
+
 
   </body>
 
