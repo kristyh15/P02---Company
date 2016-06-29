@@ -730,7 +730,7 @@ iframe {
 
 .checkoutelement{
   text-align: left;
-  padding-bottom: 2em;
+  padding-bottom: 2.5em;
   display: inline-block;
   float: left;
   width: 100%;
@@ -738,22 +738,31 @@ iframe {
 
 .checkouttitle{
   text-align: left;
-  padding-left: 1.8em;
+  padding-left: 0.5em;
   padding-bottom: 1em;
 }
 
 .checkoutinfo{
   text-align: left;
-  padding-left: 2em;
+  padding-left: 0.5em;
   padding-bottom: 0.5em;
   font-family: Adobe Devanagari;
   font-weight: normal;
 }
 
 .checkoutimage{
-  max-height: 350px;
+  width: 100%;
+  max-width: 325px;
+  min-width: 175px;
   float: left;
 }
+
+@media (max-width: 40em) {
+  .checkoutimage {
+    max-width: 525px;
+  }
+}
+
 
 .carttitle{
   margin: 0em;
