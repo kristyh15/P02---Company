@@ -475,12 +475,14 @@ input[id='quantity'] {
 
 /*Styling for about page*/
 .title-about {
+  font-size: 2em;
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
   color: #818476;
-  margin: 0;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
   clear: left;
   padding-top:0.75rem;
 }
@@ -502,18 +504,6 @@ input[id='quantity'] {
   color: #202021;
   margin-top: 0.2rem;
   margin-bottom: 0.2rem;
-}
-
-/*Styling for about page*/
-.title-about {
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  color: #818476;
-  margin: 0;
-  clear: left;
-  padding-top:0.75rem;
 }
 
 /*Styling for product page*/
@@ -751,6 +741,7 @@ input[id='quantity'] {
 
 img {
   max-width: 100%;
+  border: 0;
   height: auto; /*automatically adjust height according to width to constrain proportions of image*/
 }
 
