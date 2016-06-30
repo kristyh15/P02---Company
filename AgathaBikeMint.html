@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>P02 - Agatha Bike Template</title>
+    <title>Spoke: Agatha Bike</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
   </head>
@@ -13,53 +13,106 @@
 
   <body>
 
+
+
+
 <!--start navigation menu-->
-    <header id="top">
+   <header id="top">
       <nav class="grid-row">
         <div class="grid-col-m-2of12 grid-col-1of12">
-            <a class="button-nav" href="http://www.sfu.ca/~kristyh/iat339/P02/Week%2006%20-%20June%2016/templateRiderCategory.html">Logo</a>
+            <a class="logobutton" href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/Home.html">
+              <img src="img/logo.png" class="logo">
+            </a>
         </div>
 
         <div class="grid-col-m-2of12 grid-col-1of12" style="float: right">
-            <a class="button-nav" href="http://www.sfu.ca/~kristyh/iat339/P02/Week%2006%20-%20June%2016/templateCart.html">Cart</a>
+            <a class="button-nav" href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/Cart.html">Cart</a>
         </div>
 
         <div class="grid-col-m-2of12 grid-col-1of12" style="float: right">
-            <a class="button-nav" href="http://www.sfu.ca/~kristyh/iat339/P02/Week%2006%20-%20June%2016/templateAbout.html">About Us</a>
+            <a class="button-nav" href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/About.html">About Us</a>
         </div>
 
         <div class="grid-col-m-2of12 grid-col-1of12" style="float: right">
-            <a class="button-nav" href="http://www.sfu.ca/~kristyh/iat339/P02/Week%2006%20-%20June%2016/templateRecommendedRoutes.html">Plan Trip</a>
+            <a class="button-nav" href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/RecommendedRoutes.html">Plan Trip</a>
         </div>
 
         <div class="grid-col-m-2of12 grid-col-1of12" style="float: right">
-            <a class="button-nav" href="http://www.sfu.ca/~kristyh/iat339/P02/Week%2006%20-%20June%2016/templateProducts.html">Products</a>
-
+            <a class="button-nav" href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/Products.html">Products</a>
         </div>
       </nav>
     </header>
 <!--end navigation menu-->
 
 
+
     <div class="grid-row">
 
+
+
+<!--start product details-->
       <div class="heading1">
         Agatha Bike
       </div>
 
-<!--start product details-->
-      <div class="grid-col-m-6of12 grid-col-6of12">
-        <img src="img/bike_agatha_mint.jpg" class="image-prod-details" alt="Agatha Bike" height="300" width="700" border="0">
+      <!--start bike main image-->
+      <div class="grid-col-m-10of12 grid-col-6of12">
+        <img src="img/bike_agatha_mint.jpg" class="image-prod-main" alt="Agatha Bike" height="536" width="882" border="0">
+      </div>
+      <!--end bike main image-->
+
+      <!--start bike image thumbnails-->
+      <div class="grid-col-m-2of12 grid-col-1of12" style="text-align: left">
+        <div class="thumbnail_views">
+          <a href="#" style="text-decoration: none;"> <!--doesn't have line underneath gaps in smaller screen sizes-->
+            <img src="img/bike_agatha_mint.jpg" class="image-prod-thumbnails" alt="Agatha Bike"> 
+          </a>
+          <a href="#" style="text-decoration: none;"> 
+            <img src="img/agatha_mint02.jpg" class="image-prod-thumbnails" alt="Context"> 
+          </a>
+          <a href="#" style="text-decoration: none;"> 
+            <img src="img/agatha_mint03.jpg" class="image-prod-thumbnails" alt="Logo"> 
+          </a>
+          <a href="#" style="text-decoration: none;">
+            <img src="img/agatha_mint04.jpg" class="image-prod-thumbnails" alt="Handlegrip details"> 
+          </a>
+          <a href="#" style="text-decoration: none;"> 
+            <img src="img/agatha_mint05.jpg" class="image-prod-thumbnails" alt="Seat details"> 
+          </a>
+          <br><br>
+        </div>
+      </div>
+      <!--end bike image thumbnails-->
+
+      <!--start product descriptions-->
+      <div class="grid-col-m-12of12 grid-col-3of12">
+        <div>
+          <p class="prod-price">$193 &nbsp</p>
+        </div>
       </div>
 
-      <div class="grid-col-m-6of12 grid-col-6of12">
+      <div class="grid-col-m-5of12 grid-col-3of12">
+        <div>
+          <p class="prod-sku">Eligible for <strong> free shipping</strong> within Canada.</p>
+        </div>
+      </div>
+
+      <div class="grid-col-m-4of12 grid-col-3of12">
+        <div>
+          <p class="prod-sku">Usually ships within 1-3 weeks.</p>
+        </div>
+      </div>
+
+      <div class="grid-col-m-11of12 grid-col-4of12">
         <div>
           <p class="title-info">Description:</p>
         </div>
         <div class="prod-description"> 
-          The Agatha bike is the perfect stylish bike for the leisure riders. Sporting an aluminum frame and italian leather seat and handle grips makes it lightweight and durable.
+           The Agatha bike is the perfect stylish bike for the leisure riders. Sporting an aluminum frame and italian leather saddle and handle grips makes it lightweight and durable. It's small frame makes storing easy and its thick, reduced sized wheels afford greater speed.
         </div>
+      </div>
 
+      <div class="grid-col-m-4of12 grid-col-2of12">
         <div>
           <p class="title-info">Specs:</p>
         </div>
@@ -67,53 +120,190 @@
           <ul class="ulist">
             <li> <em>Frame:</em> Aluminum</li>
             <li> <em>Weight:</em> 9kg</li>
+            <li> <em>Bike Size:</em> 59cm</li>
+            <li> <em>Wheel Size:</em> 526 inches</li>
           </ul>
         </div>
+      </div>
 
+      <div class="grid-col-m-3of12 grid-col-3of12" style="padding-bottom: 1.75rem">
         <div>
-          <p class="title-info">Choose a Color:</p>
+          <p class="title-info">Select a Color:</p>
         </div>
-        <div style="text-align:left"> <!--color choices aligns to the left with title-->
-          <a class="mintColor" href="http://www.sfu.ca/~kristyh/iat339/P02/Week%2006%20-%20June%2016/templateAgathaBikeMint.html"></a>
-          <a class="tealColor" href="http://www.sfu.ca/~kristyh/iat339/P02/Week%2006%20-%20June%2016/templateAgathaBikeTeal.html"></a>
-          <a class="brickColor" href="http://www.sfu.ca/~kristyh/iat339/P02/Week%2006%20-%20June%2016/templateAgathaBikeBrick.html"></a>
-        </div>
-
-        <div>
-          <h2 class="heading2">$193</h2>
-        </div>
-
         <div style="text-align:left">
-          <a class="button-fill" href="http://www.sfu.ca/~kristyh/iat339/P02/Week%2006%20-%20June%2016/templateCart.html">Add to Cart</a>
-        </div>
-
-        <div style="padding-top:0.45rem; text-align:left">
-          <p class="title-info" style="clear:left; float:bottom">Suggested Routes:</p>
-          <p class="prod-description">See the most popular routes cyclists have taken riding the Agatha bike.</p>
-          <a class="button-outline" href="http://www.sfu.ca/~kristyh/iat339/P02/Week%2006%20-%20June%2016/templateSuggestedRoutesAgatha.html">See Routes</a>
+          <a class="mintColor" href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/AgathaBikeMint.html"></a>
+          <a class="tealColor" href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/AgathaBikeTeal.html"></a>
+          <a class="brickColor" href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/AgathaBikeBrick.html"></a>
         </div>
       </div>
+
+      <div class="grid-col-m-12of12 grid-col-5of12">
+        <div style="text-align:left">
+          <br>
+          <a class="button-outline" href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/SuggestedRoutesAgatha.html">Suggested Routes</a>
+          <a class="button-fill" href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/Cart.html">Add to Cart</a>
+        </div>
+        <br><br><br>
+      </div>
+      <!--end product descriptions-->
 <!--end product details-->
 
-<!--start feedback/comments section-->
-      <div class="grid-col-m-12of12 grid-col-12of12">
-        <h1 class="heading4" style="padding-top:2rem">Comments:</h1>
+
+
+<!--end product specific images and sell lines-->
+      <div class="grid-col-m-12of12 grid-col-6of12">
+      <br>
+      <br>
+        <picture>
+          <source srcset="img/detail_grip_brown.jpg" media="(max-width: 40rem)">
+          <source srcset="img/detail_grip_brown.jpg">
+          <img src="img/detail_grip_brown.jpg" alt="Handle Grips">
+        </picture>
+
+        <span class="grid-col-m-12of12 grid-col-12of12">
+          <p class="image-detail"> Better Grip. Better Control. </p>
+            <span class="grid-col-m-12of12 grid-col-12of12 prod-sku" style="padding:0rem 3rem; text-align: left">
+              This soft leather grip makes your handlebar ever more stylish. Wrapped around steel handlebars and two layers of added padding, this grip gives riders great control, allowing them to have better posture.
+            </span>
+        </span>
       </div>
 
-      <div class="grid-col-m-12of12 grid-col-5of12" style="text-align:left">
-        <form method="post" action="#">
-          <label for="form-message"></label>  
-          <textarea id="form-message" placeholder="Comment here..." rows="8" cols="87"></textarea>
-        </form>
-        <a class="button-fill" href="#">Submit</a>
+      <div class="grid-col-m-12of12 grid-col-6of12">
+      <br>
+      <br>
+        <picture>
+          <source srcset="img/detail_saddle.jpg" media="(max-width: 40rem)">
+          <source srcset="img/detail_saddle.jpg">
+          <img src="img/detail_saddle.jpg" alt="Seat">
+        </picture>
+
+        <span class="grid-col-m-12of12 grid-col-12of12">
+          <p class="image-detail"> Added Padding. </p>
+            <span class="grid-col-m-12of12 grid-col-12of12 prod-sku" style="padding:0rem 2.5rem; text-align: left">
+              We listened to your feedback and added padding to this upgraded version of the Agatha bike. Filled with three inches of high density foam and shock absorbant springs, this saddle provides shock proof performance while relieving pressure.
+            </span>
+        </span>
       </div>
-<!--end feedback/comments section-->
+
+      <div class="grid-col-m-12of12 grid-col-6of12">
+      <br>
+      <br>
+        <picture>
+          <source srcset="img/detail_wheel_white.jpg" media="(max-width: 40rem)">
+          <source srcset="img/detail_wheel_white.jpg">
+          <img src="img/detail_wheel_white.jpg" alt="Wheel">
+        </picture>
+        <span class="grid-col-m-12of12 grid-col-12of12">
+          <p class="image-detail"> Re-engineered Tires. Now Even Safer. </p>
+            <span class="grid-col-m-12of12 grid-col-12of12 prod-sku" style="padding:0rem 2.5rem; text-align: left">
+              Thin, yet powerful. These tires can take on any condition without compormising quality. From riding on roads filled with black ice in the winter to taking it on rocky roads during the warmer periods, you will feel like you've been riding on a smooth pavement all along. It's just that much better.
+            </span>
+        </span>
+      </div>
+
+      <div class="grid-col-m-12of12 grid-col-6of12">
+      <br>
+      <br>
+        <picture>
+          <source srcset="img/detail_bell.jpg" media="(max-width: 40rem)">
+          <source srcset="img/detail_bell.jpg">
+          <img src="img/detail_bell.jpg" alt="Bells">
+        </picture>
+
+        <span class="grid-col-m-12of12 grid-col-12of12">
+          <p class="image-detail" style=" text-align: center;"> Bells. One Way to Accessorize. </p>
+            <span class="grid-col-m-12of12 grid-col-12of12 prod-sku" style="padding:0rem 2.5rem; text-align: left">
+              Want to give a voice to your bike? It's our gift to you when you purchase two bikes or more. These bells add a personal touch and mounts onto handlebars of any Spoke bike model. Made from aluminum and coated with a layer of protection spray, this bell is resistant to rust.
+            </span>
+        </span>
+      </div>
+<!--end product specific images and sell lines-->
+
+      <div class="grid-col-m-12of12 grid-col-0of12">
+        <br><br><br>
+      </div>
+
+<!--start Customer Reviews heading-->
+      <div class="grid-col-m-12of12 grid-col-12of12">
+        <br>
+        <h1 class="heading2" style="text-align: center;"> <span style="color: #818476"> Customer Reviews </span> </h1>
+      </div>
+<!--end Customer Reviews heading-->
+
+<!--start leave a review form fields-->
+      <div class="grid-col-m-4of12 grid-col-4of12" style="text-align: left">
+        <p> *All fields are required to submit a review. </p>
+        <form method="post" action="#">
+          Purchase Verification Code
+          <span class="prod-sku" style="text-transform: initial;"> (See bottom of receipt) </span>
+          <br>
+          <input type="text" required="required"><br><br>
+          First name
+          <br>
+          <input type="text" required="required"><br><br>
+          Last name
+          <br>
+          <input type="text" required="required"><br><br>
+          Subject
+          <br>
+          <input type="text" required="required"><br><br>
+          Comment
+          <br>
+          <label for="commentinput"></label>  
+          <textarea class="comment" required="required"> </textarea>
+          <br>
+          <br>
+          <a class="button-fill" href="#" value="submit"> Submit </a>
+        </form>
+      </div>
+<!--end leave a review form fields-->
+
+      <div class="grid-col-m-0of12 grid-col-2of12">
+        <br><br><br>
+      </div>
+
+<!--start existing customer reviews-->
+      <div class="grid-col-m-6of12 grid-col-5of12">
+        <p class="reviewer-name" style="text-align: left;"> Karen Cain &nbsp <span class="reviewer-date" style="text-align: left"> 06/11/16 </span> </p>
+        <p class="paragraph"> 
+          <strong class="review-headline"> Solid winner! </strong> 
+          <br>
+          This bike is like love at first sight. It's also easy to store which is really neat. I got the brick colored one. I'd say it was $193 well spent.</p>
+        <hr> <!-- line -->
+        <p class="reviewer-name" style="text-align: left;"> Augustus Ren &nbsp <span class="reviewer-date" style="text-align: left"> 05/23/16 </span> </p>
+        <p class="paragraph"> 
+          <strong class="review-headline"> Good looking bike. </strong> 
+          <br>
+          The bike was a bit smaller than I expected when it came in the mail, but that's okay. I am still very satisfied with my purchase.</p>
+        <hr> <!-- line -->
+        <p class="reviewer-name" style="text-align: left;"> Michael Ponil &nbsp <span class="reviewer-date" style="text-align: left"> 05/22/16 </span> </p>
+        <p class="paragraph"> 
+          <strong class="review-headline"> Awesome! </strong> 
+          <br> 
+          Build quality is solid. Can't really pinpoint any defects or downsides to it yet. Literally walked into the store, purchased it, and rode it back home.
+        </p>
+        <hr> <!-- line -->
+        <p class="reviewer-name" style="text-align: left;"> Jessica Um &nbsp <span class="reviewer-date" style="text-align: left"> 05/10/16 </span> </p>
+        <p class="paragraph"> 
+          <strong class="review-headline"> Good service. </strong> 
+          <br> 
+          When I was assembling the bike, I noticed that one of the leather grips had a slight scratch on it. So I emailed customer service and told them about my situation. A few days later, they mailed me a whole new set of leather grips free of charge!
+        </p>
+        <hr> <!-- line -->
+        <p class="reviewer-name" style="text-align: left;"> Kate Hummus &nbsp <span class="reviewer-date" style="text-align: left"> 05/10/16 </span> </p>
+        <p class="paragraph"> 
+          <strong class="review-headline"> Almost flawless. </strong> 
+          <br> 
+          I accidentally crashed this bike while riding it down a slope on the way home at night. The front wheel deflated and my nails dug into the leather grips. I thought the materials were tougher than that? Slightly slightly disappointed. Guess my hopes were just too high.
+        </p>
+      </div>
+<!--end existing customer reviews-->
 
 
     </div>
 
 
-
-
   </body>
+
+
 </html>
