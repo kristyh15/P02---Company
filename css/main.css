@@ -57,7 +57,6 @@ section p {
 
 nav {
   width: 100%;
-  margin-bottom: 1em;
   background-color: #ffffff;
   z-index: 10;
 }
@@ -893,10 +892,6 @@ padding-left: 0em;
     width: 31.5%;
     padding: 0rem;
   }
-}
-
-.image-prod-thumbnails:focus, .image-prod-thumbnails:hover {
-  opacity: 0.5;
 }
 
 .image-prod-details {
