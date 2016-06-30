@@ -3,9 +3,45 @@
   Default styling for the style guide 
 */
 
+@font-face {
+  font-family: 'Brandon Grotesque';  /* Sets a name for our font family */
+  font-weight: normal;  /* Sets the font-weight for this particular font */
+  font-style: normal;   /* Sets the font-style for this particular font */
+  src: url('fonts/Brandon_reg.eot'); /* Support for IE9 */
+  src: 
+    url('fonts/Brandon_reg.eot?#iefix') format('embedded-opentype'),   
+    url('fonts/Brandon_reg.woff2') format('woff2'),
+    url('fonts/Brandon_reg.woff') format('woff'),
+    url('fonts/BrandonGrotesque-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  font-weight: bold;
+  font-style: normal;
+  src: url('fonts/Brandon_bld.eot');
+  src: 
+    url('fonts/Brandon_bld.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Brandon_bld.woff') format('woff2'),
+    url('fonts/Brandon_bld.woff') format('woff'),
+    url('fonts/BrandonGrotesque-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Adobe Devanagari';
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/AdobeDevanagari-Regular.eot');
+  src: 
+    url('fonts/AdobeDevanagari-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/AdobeDevanagari-Regular.woff') format('woff2'),
+    url('fonts/AdobeDevanagari-Regular.woff') format('woff'),
+    url('fonts/AdobeDevanagari-Regular.ttf') format('truetype');
+}
+
 body {
-  font-family: Brandon Grotesque, Adobe Devangari, sans-serif; 
-  padding: 2rem;
+  font-family: 'Brandon Grotesque', 'Adobe Devanagari', sans-serif; 
+  padding: 1.5rem;
   background-color: #ffffff;
 }
 
@@ -37,6 +73,7 @@ nav {
 nav a:hover, nav a:focus {
   text-decoration: none;
 }
+
 
 section code {
   background-color: #EEE;
@@ -74,8 +111,7 @@ cite {
 .button-nav { /*refer to the .buttom-nav class in html*/
   display: inline-block;
   margin: 0em;
-  padding: 1.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
-  width: 100%;
+  padding: 0.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
   color: #202021; /*button text color*/
   background-color: #ffffff; /*button background color*/
   text-decoration: none; /*setting to none removes underline from texts*/
@@ -95,8 +131,6 @@ cite {
 .logobutton{
   display: inline-block;
   margin: 0em;
-  padding: 0.89em 1.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
-  width: 100%;
   height: 100%;
   color: #202021; /*button text color*/
   background-color: #ffffff; /*button background color*/
@@ -109,6 +143,11 @@ cite {
   background-color: #EEEDED; /*change the button background color to #818476 on mouse hover*/
 }
 
+.logostyle{
+ width: 30px;
+ height: 30px;
+}
+
 /* Styling for buttons with fill */
 .button-fill {
   display: inline-block;
@@ -116,7 +155,6 @@ cite {
   color: #ffffff; /*button text color is off-white*/
   background-color: #818476; /*button background color is green*/
   border-style: solid; /*button border is a solid line on all four sides*/
-  border-color: #818476;
   border-radius: 5em; /*rounding button corners*/
   text-decoration: none; /*setting to none removes underline from texts*/
   text-transform: initial;
@@ -138,22 +176,6 @@ cite {
   transition: background-color 0.35s ease-out;
 }
 
-/* Styling for the navigation button */
-.button-nav { /*refer to the .buttom-nav class in html*/
-  display: inline-block;
-  margin: 0em;
-  padding: 0.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
-  width: 100%;
-  color: #202021; /*button text color*/
-  background-color: #f9f9fa; /*button background color*/
-  text-decoration: none; /*setting to none removes underline from texts*/
-  -webkit-transition: background-color 0.35s ease-out; /*how fast the background color of the button changes to green (#818476) on mouse hover*/
-  transition: background-color 0.35s ease-out;
-}
-
-.button-nav:hover, .button-nav:focus { /*comma specifies the two states we want; the two states here are hover and focus*/
-  background-color: #EEEDED; /*change the button background color to #818476 on mouse hover*/
-}
 
 /* Styling for buttons with fill */
 .button-confirm, .button-checkout, .button-placeorder { /*refer to classes .button-submit/checkout/placeorder/addcart in html*/
@@ -185,7 +207,7 @@ cite {
 /*Styling for the drop-down menu*/
 .dropdown-button {
   display: inline-block;
-  font-family: Brandon Grotesque;
+  font-family: 'Brandon Grotesque';
   font-size: 16px;
   padding: 0.55em 0.8em;
   color: #f9f9fa; /*button text color is off-white*/
@@ -196,7 +218,7 @@ cite {
 
 .dropdown-picker {
   display: block;
-  font-family: Brandon Grotesque;
+  font-family: 'Brandon Grotesque';
   font-size: 16px;
   padding: 0.55em 0.8em;
   text-align: left;
@@ -208,7 +230,7 @@ cite {
 }
 
 .dropdown-quantity {
-  font-family: Brandon Grotesque;
+  font-family: 'Brandon Grotesque';
   font-size: 16px;
   padding: 0.55em 0.8em;
   text-align: center;
@@ -258,10 +280,13 @@ cite {
 /*Styling for the in-text link*/
 
 .in-text-link {
+  font-family: 'Brandon Grotesque';  /* Sets a name for our font family */
+  font-weight: bold;  /* Sets the font-weight for this particular font */
+  font-style: normal;
   color: #202021;
   text-decoration: none;
-  font-style: Brandon Grotesque Bold;
 }
+
 
 .in-text-link:hover, .in-text-link:focus, .button-fill:focus, .button-fill:hover, .button-outline:focus, .button-outline:hover{ /*comma specifies the two states we want; the two states here are hover and focus*/
   opacity: 0.5; /* change in-text link and button opacity to 70% on mouse hover */
@@ -345,7 +370,7 @@ input[id='quantity'] {
 
 .comment {
   font-size: 0.85rem;
-  font-family: Adobe Devanagari;
+  font-family: 'Adobe Devanagari';
   width: 100%;
   height: 10rem;
   resize: vertical;
@@ -480,7 +505,7 @@ input[id='quantity'] {
 }
 
 .info-about {
-  font-family: Adobe Devanagari; /*font for this paragraph class is Adobe Devangari*/
+  font-family: 'Adobe Devanagari'; /*font for this paragraph class is Adobe Devangari*/
   font-size: 0.85rem; 
   text-align: center;
   max-width: 40rem; /*line length*/
@@ -506,7 +531,7 @@ input[id='quantity'] {
 
 /*Styling for paragraph*/
 .paragraph {
-  font-family: Adobe Devanagari; /*font for this paragraph class is Adobe Devangari*/
+  font-family: 'Adobe Devanagari'; /*font for this paragraph class is Adobe Devangari*/
   font-size: 0.85rem; 
   text-align: left;
   max-width: 30rem; /*line length*/
@@ -516,7 +541,7 @@ input[id='quantity'] {
 
 /*Styling for product description*/
 .prod-description {
-  font-family: Adobe Devanagari; /*font for this paragraph class is Adobe Devanagari*/
+  font-family: 'Adobe Devanagari'; /*font for this paragraph class is Adobe Devanagari*/
   font-size: 0.85rem; 
   text-align: left;
   max-width: 30rem; /*line length*/
@@ -580,7 +605,7 @@ input[id='quantity'] {
   height: 20px;
   border-radius: 12.5px;
   background-color: #c3dcd9;
-  align:left;
+  text-align: left;
 }
 
 .tealColor { /*for Agatha bike*/
@@ -590,7 +615,7 @@ input[id='quantity'] {
   height: 20px;
   border-radius: 12.5px;
   background-color: #83a0a4;
-  align:left;
+  text-align: left;
 }
 
 .brickColor { /*for Agatha bike*/
@@ -600,7 +625,7 @@ input[id='quantity'] {
   height: 20px;
   border-radius: 12.5px;
   background-color: #9e5745;
-  align: left;
+  text-align: left;
 }
 
 .mustardColor { /*for Franco bike*/
@@ -727,19 +752,16 @@ img {
 /*Styling for grid*/
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 50%;
-  text-decoration: none;
+  float: left;
+  padding: 0; 
+  text-align: center; /* center the content in this block by default */
+  width: 100%;
 }
 
 img {
   max-width: 100%;
   height: auto; /*automatically adjust height according to width to constrain proportions of image*/
-  padding-top: 1.75rem; /*add padding above image*/
 }
-
-
 
 
 
