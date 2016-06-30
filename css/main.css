@@ -291,8 +291,10 @@ li {
 
 .in-text-link {
   font-family: 'Brandon Grotesque';  /* Sets a name for our font family */
-  font-weight: normal;  /* Sets the font-weight for this particular font */
+  font-weight: bold;  /* Sets the font-weight for this particular font */
   font-style: normal;
+  color: #202021;
+  text-decoration: none;
 }
 
 .in-text-link:hover, .in-text-link:focus, .button-fill:focus, .button-fill:hover, .button-outline:focus, .button-outline:hover{ /*comma specifies the two states we want; the two states here are hover and focus*/
