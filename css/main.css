@@ -190,7 +190,6 @@ li {
   color: #ffffff; /*button text color is off-white*/
   background-color: #818476; /*button background color is green*/
   border-style: solid; /*button border is a solid line on all four sides*/
-  border-color: #818476;
   border-radius: 5em; /*rounding button corners*/
   text-decoration: none; /*setting to none removes underline from texts*/
   text-transform: initial;
@@ -233,7 +232,8 @@ li {
   color: #202021; /*button text color is grey*/
   background-color: #ffffff; /*button background color is white*/
   border-color: rgba(35, 7, 7, 0.16);
-  border-width: 0.01em;
+  border-width: 0.05em;
+  border-style: solid;
   text-decoration: none; /*setting to none removes underline from texts*/
 }
 
@@ -255,11 +255,13 @@ li {
   padding-bottom: 1em;
 }
 
+
 .dropdown-content {
   display: none; /*do not display until on mouse-hover*/
   position: absolute;
   background-color: #f9f9fa;
   text-decoration: none;
+  width: 100%;
 }
 
 .dropdown-content a {
@@ -281,6 +283,7 @@ li {
 .dropdown:hover .dropdown-button {
   background-color: #e5e5e5; /*change background color of dropdown menu links on mouse-hover*/
 }
+
 
 
 
