@@ -6,7 +6,9 @@
     <meta charset="utf-8">
     <title>Style Guide</title>
 
-    <link href="css/styleguide.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styleguide.css">
+
+    
 
   </head>
 
@@ -48,10 +50,9 @@
 
      <!-- START COLOURS SECTION // -->
     <section id="colours">
+    <h2> Colour Palette: </h2>
+      
       <section>
-
-        <h2> Colour Palette: </h2>
-           
           <div class="whiteColor"> 
             <h3>White: #ffffff</h3>
             <p>website background<br><br></p>
@@ -66,7 +67,6 @@
             <h3>Olive Green: #818476</h3>
             <p>accent colour <br> subheading colour</p>
           </div> 
-
       </section>
 
       <section>
@@ -115,7 +115,7 @@
     <!-- START INTERACTIVE ELEMENTS SECTION // -->
 
       <!-- Navigation Button -->
-      <section>
+      <section id="interactive_elements">
         <h2>Navigation Button</h2>
 
         <h3>CSS selector:</h3>
@@ -127,7 +127,7 @@
           </code> 
 
         <h3>Rendered element:</h3>
-          <a class="button-nav" href="#">Navigation Button</a> <!--refer to .button-nav in CSS-->
+          <a class="button-nav" href="#" style="width:120px">Navigation Button</a> <!--refer to .button-nav in CSS-->
       </section>
 
       <!-- In-text link --> 
@@ -253,7 +253,7 @@
               <a class="button-fill" href="#"> Submit </a>
             </form>
           </div>
-
+        </div>
       </section>
 
     <!-- // END INTERACTIVE ELEMENTS SECTION -->
@@ -418,31 +418,17 @@
           </code>
 
         <h3>Rendered Element:</h3>
-         <header id="top">
-            <nav class="grid-row">
-              <div class="grid-col-m-2of12 grid-col-1of12">
-                  <a class="logobutton" href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/Home.html">
-                    <img src="img/logo.png" class="logo">
+            <div style="padding-top: 1em">
+              <div style="width:100%">
+                  <a class="logobutton" href="#">
+                    <img class="logostyle" alt="logo" src="img/logo.png">
                   </a>
+                  <a class="button-nav" href="#" style="float:right">Cart</a>
+                  <a class="button-nav" href="#" style="float:right">About Us</a>
+                  <a class="button-nav" href="#" style="float:right">Plan Trip</a>
+                  <a class="button-nav" href="#" style="float:right">Products</a>
+                </div>
               </div>
-
-              <div class="grid-col-m-2of12 grid-col-1of12" style="float: right">
-                  <a class="button-nav" href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/Cart.html">Cart</a>
-              </div>
-
-              <div class="grid-col-m-2of12 grid-col-1of12" style="float: right">
-                  <a class="button-nav" href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/About.html">About Us</a>
-              </div>
-
-              <div class="grid-col-m-2of12 grid-col-1of12" style="float: right">
-                  <a class="button-nav" href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/RecommendedRoutes.html">Plan Trip</a>
-              </div>
-
-              <div class="grid-col-m-2of12 grid-col-1of12" style="float: right">
-                  <a class="button-nav" href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/Products.html">Products</a>
-              </div>
-            </nav>
-          </header>
       </section>
 
       <!-- Product Listing -->
@@ -462,7 +448,7 @@
             &lt;div class="grid-col-m-6of12 grid-col-4of12"&gt;
               &lt;figure&gt;
                 &lt;a href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/AgathaBikeMint.html"&gt;
-                  &lt;img src="img/bike_agatha.jpg" alt="Agatha Bike" height="300" width="500" border="0"&gt;
+                  &lt;img src="img/bike_agatha.jpg" alt="Agatha Bike" height="300" width="500"&gt;
                 &lt;/a&gt;
                 &lt;h3 class="heading4"&gt; 
                   &lt;a class="in-text-link" 
@@ -490,7 +476,7 @@
           <div class="grid-col-m-6of12 grid-col-4of12">
             <figure>
               <a href="http://www.sfu.ca/~kristyh/iat339/P02/Final%20Deliverables/AgathaBikeMint.html">
-                <img src="img/bike_agatha.jpg" alt="Agatha Bike" height="300" width="500" border="0">
+                <img src="img/bike_agatha.jpg" alt="Agatha Bike" height="300" width="500">
               </a>
               <h3 class="heading4"> 
                 <a class="in-text-link" 
@@ -534,7 +520,6 @@
           <figcaption>2 column grid</figcaption>
         </figure>
       </section>
-
 
 
 
