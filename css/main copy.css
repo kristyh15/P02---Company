@@ -3,40 +3,18 @@
   Default styling for the style guide 
 */
 
-@font-face {
-  font-family: 'Brandon Grotesque';  /* Sets a name for our font family */
-  font-weight: normal;  /* Sets the font-weight for this particular font */
-  font-style: normal;   /* Sets the font-style for this particular font */
-  src: url('fonts/Brandon_reg.eot'); /* Support for IE9 */
-  src: 
-    url('fonts/Brandon_reg.eot?#iefix') format('embedded-opentype'),   
-    url('fonts/Brandon_reg.woff2') format('woff2'),
-    url('fonts/Brandon_reg.woff') format('woff'),
-    url('fonts/BrandonGrotesque-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Brandon Grotesque';
-  font-weight: bold;
+@font-face{
+  font-family: "Brandon Grotesque";
+  font-weight: normal, bold;
   font-style: normal;
-  src: url('fonts/Brandon_bld.eot');
-  src: 
-    url('fonts/Brandon_bld.eot?#iefix') format('embedded-opentype'),
-    url('fonts/Brandon_bld.woff') format('woff2'),
-    url('fonts/Brandon_bld.woff') format('woff'),
-    url('fonts/BrandonGrotesque-Bold.ttf') format('truetype');
-}
+  src: url('fonts/Brandon_reg.otf') format('opentype'),
+       url('fonts/Brandon_med.otf') format('opentype'),
+       url('fonts/Brandon_bld.otf') format('opentype');
 
-@font-face {
-  font-family: 'Adobe Devanagari';
-  font-weight: normal;
-  font-style: normal;
-  src: url('fonts/AdobeDevanagari-Regular.eot');
-  src: 
-    url('fonts/AdobeDevanagari-Regular.eot?#iefix') format('embedded-opentype'),
-    url('fonts/AdobeDevanagari-Regular.woff') format('woff2'),
-    url('fonts/AdobeDevanagari-Regular.woff') format('woff'),
-    url('fonts/AdobeDevanagari-Regular.ttf') format('truetype');
+  font-family: "Adobe Devanagari";
+  font-weight: normal, bold;
+  font-style: normal, bold;
+  src: url('fonts/AdobeDevanagari-Regular.otf') format('opentype');
 }
 
 
