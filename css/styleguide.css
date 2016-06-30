@@ -6,7 +6,7 @@
 body {
   font-family: Brandon Grotesque, Adobe Devangari, sans-serif; 
   padding: 2rem;
-  background-color: #f9f9fa;
+  background-color: #ffffff;
 }
 
 section:not([id]) {
@@ -70,6 +70,74 @@ cite {
   INTERACTIVE ELEMENTS -------------------
 */
 
+/* Styling for the navigation*/
+.button-nav { /*refer to the .buttom-nav class in html*/
+  display: inline-block;
+  margin: 0em;
+  padding: 1.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
+  width: 100%;
+  color: #202021; /*button text color*/
+  background-color: #ffffff; /*button background color*/
+  text-decoration: none; /*setting to none removes underline from texts*/
+  -webkit-transition: background-color 0.35s ease-out; /*how fast the background color of the button changes to green (#818476) on mouse hover*/
+  transition: background-color 0.35s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus { /*comma specifies the two states we want; the two states here are hover and focus*/
+  background-color: #EEEDED; /*change the button background color to #818476 on mouse hover*/
+}
+
+.logo {
+  width: 30px;
+  padding-top: 0.5em;
+}
+
+.logobutton{
+  display: inline-block;
+  margin: 0em;
+  padding: 0.89em 1.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
+  width: 100%;
+  height: 100%;
+  color: #202021; /*button text color*/
+  background-color: #ffffff; /*button background color*/
+  text-decoration: none; /*setting to none removes underline from texts*/
+  -webkit-transition: background-color 0.35s ease-out; /*how fast the background color of the button changes to green (#818476) on mouse hover*/
+  transition: background-color 0.35s ease-out;
+}
+
+.logobutton:hover, .logobutton:focus { /*comma specifies the two states we want; the two states here are hover and focus*/
+  background-color: #EEEDED; /*change the button background color to #818476 on mouse hover*/
+}
+
+/* Styling for buttons with fill */
+.button-fill {
+  display: inline-block;
+  padding: 0.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
+  color: #ffffff; /*button text color is off-white*/
+  background-color: #818476; /*button background color is green*/
+  border-style: solid; /*button border is a solid line on all four sides*/
+  border-color: #818476;
+  border-radius: 5em; /*rounding button corners*/
+  text-decoration: none; /*setting to none removes underline from texts*/
+  text-transform: initial;
+  -webkit-transition: background-color 0.35s ease-out; /*how fast the background color of the button changes to green (#818476) on mouse hover*/
+  transition: background-color 0.35s ease-out;
+}
+
+/*Styling for buttons with outline*/
+.button-outline {
+  display: inline-block;
+  padding: 0.5em 0.75em; /*top and bottom padding = 0.5em, left and right padding = 0.75em*/
+  color: #818476; /*button text color is green*/
+  background-color: #ffffff; /*button background color is white*/
+  border-style: solid; /*button border is a solid line on all four sides*/
+  border-color: #818476; /*button border color is green*/
+  border-radius: 5em; /*rounding button corners*/
+  text-decoration: none; /*setting to none removes underline from texts*/
+  -webkit-transition: background-color 0.35s ease-out; /*how fast the background color of the button changes to green (#818476) on mouse hover*/
+  transition: background-color 0.35s ease-out;
+}
+
 /* Styling for the navigation button */
 .button-nav { /*refer to the .buttom-nav class in html*/
   display: inline-block;
@@ -116,18 +184,45 @@ cite {
 
 /*Styling for the drop-down menu*/
 .dropdown-button {
-  display: block;
+  display: inline-block;
   font-family: Brandon Grotesque;
   font-size: 16px;
   padding: 0.55em 0.8em;
   color: #f9f9fa; /*button text color is off-white*/
   background-color: #818476; /*button background color is green*/
-  border: none;
+  border-width: 0.01em;
+  text-decoration: none; /*setting to none removes underline from texts*/
+}
+
+.dropdown-picker {
+  display: block;
+  font-family: Brandon Grotesque;
+  font-size: 16px;
+  padding: 0.55em 0.8em;
+  text-align: left;
+  color: #202021; /*button text color is grey*/
+  background-color: #ffffff; /*button background color is white*/
+  border-color: rgba(35, 7, 7, 0.16);
+  border-width: 0.01em;
+  text-decoration: none; /*setting to none removes underline from texts*/
+}
+
+.dropdown-quantity {
+  font-family: Brandon Grotesque;
+  font-size: 16px;
+  padding: 0.55em 0.8em;
+  text-align: center;
+  color: #202021; /*button text color is grey*/
+  background-color: #ffffff; /*button background color is white*/
+  border-color: rgba(35, 7, 7, 0.16);
+  border-width: 0.01em;
   text-decoration: none; /*setting to none removes underline from texts*/
 }
 
 .dropdown {
   display: block;
+  position: relative;
+  padding-bottom: 1em;
 }
 
 .dropdown-content {
@@ -150,15 +245,13 @@ cite {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
 
-/*.dropdown-button:hover, .dropdown-button:focus {
-  opacity: 0.7;
-}*/
+}
 
 .dropdown:hover .dropdown-button {
-    background-color: #e5e5e5; /*change background color of dropdown menu links on mouse-hover*/
+  background-color: #e5e5e5; /*change background color of dropdown menu links on mouse-hover*/
 }
+
 
 
 
@@ -167,38 +260,96 @@ cite {
 .in-text-link {
   color: #202021;
   text-decoration: none;
+  font-style: Brandon Grotesque Bold;
 }
 
-.in-text-link:hover, .in-text-link:focus, .button-confirm:hover, .button-checkout:focus, .button-checkout:hover, .button-checkout:focus, .button-placeorder:focus, .button-placeorder:hover, .button-addcart:focus, .button-addcart:hover { /*comma specifies the two states we want; the two states here are hover and focus*/
-  opacity: 0.7; /* change in-text link and button opacity to 70% on mouse hover */
+.in-text-link:hover, .in-text-link:focus, .button-fill:focus, .button-fill:hover, .button-outline:focus, .button-outline:hover{ /*comma specifies the two states we want; the two states here are hover and focus*/
+  opacity: 0.5; /* change in-text link and button opacity to 70% on mouse hover */
+}
+
+/*Styling for the underlined in-text link*/
+
+.in-text-underline {
+  color: #202021;
+}
+
+.in-text-underline:hover, .in-text-underline:focus {
+  opacity: 0.5;
+}
+
+
+/*Styling for the in-text link ALT*/
+
+.in-text-link-alt {
+  color: #818476;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.in-text-link-alt:hover, .in-text-link-alt:focus {
+  opacity: 0.5; /* change in-text link and button opacity to 50% on mouse hover */
 }
 
 
 /* Styling for the text input field */
 form {
-  display: inline-block;
-  padding:1.15em;
-  text-transform: uppercase;
+  display: block;
+  padding: 0.5rem 0rem;
   font-size: 0.85rem;
-  /* background-color: #f9f9fa;
-   width: 150px;
-  height: 230px; */
+  text-transform: uppercase;
 }
 
 label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
   display: block;
+  padding-bottom: 0.25em;
 }
 
 input {
-  display: inline-block;
-  width: 240px;
-  height: 30px;
+  display: block;
+  width: 40em;
+  height: 3.5em;
   color: #000;
   margin-bottom: .75em;
   padding-left: 0.5em;
 }
 
+input[type='checkbox'] {
+  display: inline-block;
+  height: 1em;
+  padding-left: 1em;
+  padding-bottom: 3em;
+  width: 1em;
+  color: #818476;
+}
 
+input[id='quantity'] {
+  height: 3.5em;
+  width: 3.5em;
+}
+
+@media (max-width: 40em) {
+  form {
+    width: 100%;
+  }
+  input[type=text],
+  select {
+    width: 100%; 
+  }
+  .comment {
+    width: 100%;
+  }
+}
+
+.comment {
+  font-size: 0.85rem;
+  font-family: Adobe Devanagari;
+  width: 100%;
+  height: 10rem;
+  resize: vertical;
+}
 
 /* 
   TEXT ELEMENTS -------------------
@@ -206,43 +357,178 @@ input {
 
 /*Styling for the three levels of headings*/
 .heading1 {
-  font-size: 2.2rem;
-  font-weight: bold;
-  color: #202021;
-  margin-right: 1.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: left;
+    color: #202021;
+    margin-top: 4rem;
+    margin-bottom: 1.25rem;
 }
 
+@media (max-width: 40em) {
+  .heading1{
+    margin-top: 2rem;
+}
+}
+
+
 .heading2 {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #202021;
-  margin-right: 1.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: left;
+    color: #202021;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
 }
 
 .heading3 {
   font-size: 1.3rem;
   font-weight: bold;
+  text-align: left;
   color: #202021;
-  margin-right: 1.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
+.heading4 {
+ font-size: 1.15rem;
+  font-weight: bold;
+  text-align: left;
+  color: #202021;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+
+.prod-title-specs {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  color: #818476;
+  padding: 0rem 0rem 0rem 1.5rem;
+  margin-bottom: 0;
+  clear: left;
+}
+
+.prod-price {
+  font-size:1.4rem;
+  font-weight: bold;
+  text-align: left;
+  color: #202021;
+  margin:0rem;
+  padding:0rem;
+}
+
+.prod-sku {
+  font-size:0.85rem;
+  font-weight:normal;
+  text-align: left;
+  color: #888888;
+  margin: 0rem;
+  padding: 0rem;
+  clear: left;
+}
+
+.reviewer-date {
+  font-size:0.7rem;
+  font-weight:normal;
+  text-align: left;
+  color: #888888;
+  margin: 0rem;
+  padding: 0rem;
+  clear: left;
+}
+
+.paralist {
+  margin-bottom: 0.5em;
+}
+
+.title-info {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+  color: #818476;
+  margin:0rem;
+  clear: left;
+  padding-top:0.55rem;
+}
+
+.section-info {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #818476;
+  margin: 0;
+  clear: left;
+  padding-top:0.75rem;
+}
+
+/*Styling for about page*/
+.title-about {
+  font-size: 2em;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #818476;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  clear: left;
+  padding-top:0.75rem;
+}
+
+.info-about {
+  font-family: Adobe Devanagari; /*font for this paragraph class is Adobe Devangari*/
+  font-size: 0.85rem; 
+  text-align: center;
+  max-width: 40rem; /*line length*/
+  color: #202021;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.heading5 {
+  font-size: 1.15rem;
+  font-weight: bold;
+  text-align: left;
+  color: #202021;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+/*Styling for product page*/
+.productPrice {
+  margin:0rem;
+  text-align:left;
+}
+
 /*Styling for paragraph*/
 .paragraph {
-  font-family: Adobe Devangari; /*font for this paragraph class is Adobe Devangari*/
+  font-family: Adobe Devanagari; /*font for this paragraph class is Adobe Devangari*/
   font-size: 0.85rem; 
+  text-align: left;
   max-width: 30rem; /*line length*/
   color: #202021;
+  padding-bottom:1.6rem;
+}
+
+/*Styling for product description*/
+.prod-description {
+  font-family: Adobe Devanagari; /*font for this paragraph class is Adobe Devanagari*/
+  font-size: 0.85rem; 
+  text-align: left;
+  max-width: 30rem; /*line length*/
+  color: #202021;
+  clear: left;
+  margin:0.25rem;
 }
 
 /*Styling for unordered list*/
 .ulist {
   color: #202021;
+  margin: 0;
 }
 
 /*Styling for ordered list*/
@@ -255,14 +541,14 @@ input {
   COLOUR ELEMENTS -------------------
 */
 
-.offwhiteColor {
+.whiteColor {
   display:inline-block;
   margin: 0em;
   padding: 50px 0;
   text-align: center;
   width: 200px;
   height: 80px;
-  background-color: #f9f9fa
+  background-color: #ffffff;
 }
 
 .darkgreyColor {
@@ -272,7 +558,7 @@ input {
   text-align: center;
   width: 200px;
   height: 80px;
-  background-color: #202021
+  background-color: #202021;
 }
 
 .greenColor {
@@ -282,7 +568,132 @@ input {
   text-align: center;
   width: 200px;
   height: 80px;
-  background-color: #818476
+  background-color: #818476;
+}
+
+
+/*Product specific color options*/
+.mintColor { /*for Agatha bike*/
+  display: inline-block;
+  margin-top: 0.3em;
+  width: 20px;
+  height: 20px;
+  border-radius: 12.5px;
+  background-color: #c3dcd9;
+  align:left;
+}
+
+.tealColor { /*for Agatha bike*/
+  display: inline-block;
+  margin-top: 0.3em;
+  width: 20px;
+  height: 20px;
+  border-radius: 12.5px;
+  background-color: #83a0a4;
+  align:left;
+}
+
+.brickColor { /*for Agatha bike*/
+  display: inline-block;
+  margin-top: 0.3em;
+  width: 20px;
+  height: 20px;
+  border-radius: 12.5px;
+  background-color: #9e5745;
+  align: left;
+}
+
+.mustardColor { /*for Franco bike*/
+  display: inline-block;
+  margin-top: 0.3em;
+  width: 20px;
+  height: 20px;
+  border-radius: 12.5px;
+  background-color: #c0873e;
+  text-align: left;
+}
+
+.skyColor { /*for Franco bike*/
+  display: inline-block;
+  margin-top: 0.3em;
+  width: 20px;
+  height: 20px;
+  border-radius: 12.5px;
+  background-color: #72bfcd;
+  text-align: left;
+}
+
+.ketchupColor { /*for Franco bike*/
+  display: inline-block;
+  margin-top: 0.3em;
+  width: 20px;
+  height: 20px;
+  border-radius: 12.5px;
+  background-color: #e85e4d;
+  text-align: left;
+}
+
+.blackColor {
+  display: inline-block;
+  margin-top: 0.3em;
+  width: 20px;
+  height: 20px;
+  border-radius: 12.5px;
+  background-color: #000000;
+  text-align: left;
+}
+
+.darkblueColor {
+  display: inline-block;
+  margin-top: 0.3em;
+  width: 20px;
+  height: 20px;
+  border-radius: 12.5px;
+  background-color: #172345;
+  text-align: left;
+}
+
+.aquaColor {
+  display: inline-block;
+  margin-top: 0.3em;
+  width: 20px;
+  height: 20px;
+  border-radius: 12.5px;
+  background-color: #8dcfab;
+  text-align: left;
+}
+
+.cardboardColor {
+  display: inline-block;
+  margin-top: 0.3em;
+  width: 20px;
+  height: 20px;
+  border-radius: 12.5px;
+  background-color: #bdae96;
+  text-align: left;
+}
+
+.mintCircle {
+    display: inline-block;
+    margin: 0em;
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    background-color: #c3dcd9;
+    margin-left: 0.5em;
+}
+
+.mintColor:hover, .mintColor:active, 
+.tealColor:hover, .tealColor:active, 
+.brickColor:hover, .brickColor:active, 
+.mustardColor:hover, .mustardColor:active, 
+.skyColor:hover, .skyColor:active, 
+.ketchupColor:hover, .ketchupColor:active,
+.blackColor:hover, .blackColor:active, 
+.darkblueColor:hover, .darkblueColor:active, 
+.aquaColor:hover, .aquaColor:active,
+.cardboardColor:hover, .cardboardColor:active {
+  opacity: 0.5;
 }
 
 
