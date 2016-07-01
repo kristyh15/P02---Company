@@ -739,13 +739,15 @@ iframe {
 
 /*Styling and dev containers for Cart and Checkout*/
 
-.checkoutheaders{
+.checkoutheaders{ 
   margin-top: 0.75em;
   margin-bottom: 1em;
   border-bottom: 0.05em solid #333;
   padding-bottom: 0.05em;
+  text-align: left;
+
 }
-.
+
 .checkoutelement{
   text-align: left;
   padding-bottom: 2.5em;
