@@ -412,7 +412,6 @@ input[id='quantity'] {
   margin-bottom: 0.2rem;
 }
 
-
 .prod-title-specs {
   font-size: 1rem;
   font-weight: bold;
@@ -981,10 +980,27 @@ iframe {
 }
 
 
+/* Styling for footer */
 
+.footer {
+  list-style-type: none; /* no bullets */
+  font-family: Brandon Grotesque;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
 
-
-
+.footer ul li {
+  list-style-type: none; /* no bullets */
+  font-family: Brandon Grotesque;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
 
 
 
