@@ -55,7 +55,6 @@ section:not([id]) {
 section h2 {
   margin-top: 0;
   margin-bottom: 1em;
-  border-bottom: 0.08em solid #333;
   padding-bottom: 0.05em;
 }
 
@@ -1030,12 +1029,17 @@ iframe {
 /* Styling for press list */
 
 .press {
+  display: inline-block;
   padding: 0;
   margin: 0;
+  list-style-type: none;
+  text-align: center;
+
 }
 
 .press ul li {
   list-style-type: none;
+
 }
 
 .press img {
