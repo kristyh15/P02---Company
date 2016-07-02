@@ -163,6 +163,24 @@
 }
 }
 
+/*
+	Setting up break points and padding for reviews
+*/
+
+
+@media (min-width: 50em) {
+.grid-col-review-6of12left {
+	width: 50%;
+	padding-left: 1.5em;
+}
+}
+
+@media (min-width: 50em) {
+.grid-col-review-6of12right {
+	width: 50%;
+	padding-right: 1.5em;
+}
+}
 
 
 /*
