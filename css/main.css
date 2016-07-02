@@ -346,6 +346,9 @@ input {
   color: #000;
   margin-bottom: .75em;
   padding-left: 0.5em;
+  border-color: rgba(35, 7, 7, 0.16);
+  border-width: 0.01em;
+  border-style: solid;
 }
 
 input[type='checkbox'] {
@@ -996,6 +999,9 @@ iframe {
   width: 100%;
   height: 10rem;
   resize: vertical;
+  border-color: rgba(35, 7, 7, 0.16);
+  border-width: 0.01em;
+  border-style: solid;
 }
 
 .newsletter {
