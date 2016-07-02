@@ -37,6 +37,9 @@
 */
 
 @media (min-width: 0em) {
+.grid-col-cart-1of12 {
+	width: 8.333%;
+}
 .grid-col-cart-2of12 {
 	width: 16.667%;	
 }
@@ -63,6 +66,12 @@
 }
 }
 
+@media (max-width: 21em) {
+.grid-col-cartsmall-8of12 {
+  width: 66.667%;
+
+}
+
 
 
 /*
@@ -74,9 +83,6 @@
 
 /* Define columns */
 
-.grid-col-m-1of12 {
-	width: 0%;	
-}
 
 .grid-col-m-1of12 {
 	width: 8.333%;	
