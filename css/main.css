@@ -378,20 +378,44 @@ input[id='quantity'] {
     margin-bottom: 1.25rem;
 }
 
-@media (max-width: 40em) {
-  .heading1{
-    margin-top: 2rem;
-}
+.intro {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: left;
+    color: #202021;
 }
 
+
+p.intro {
+  text-align: center;
+  vertical-align: middle;
+  margin:6% 18% 0.75% 18%;
+}
+
+
+@media (max-width: 40rem) {
+  p.intro {
+    max-width: 100%;
+    font-size:1.45rem;
+    margin:10% 0 0 0;
+  }
+}
 
 .heading2 {
     font-size: 1.8rem;
     font-weight: bold;
     text-align: left;
     color: #202021;
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
+    margin:0.75rem 0rem;
+}
+
+
+@media (max-width: 50rem) {
+  p.heading2 {
+    max-width: 100%;
+    font-size:1.5rem;
+    margin:0;
+  }
 }
 
 .heading3 {
@@ -411,7 +435,6 @@ input[id='quantity'] {
   margin-top: 0.2rem;
   margin-bottom: 0.2rem;
 }
-
 
 .prod-title-specs {
   font-size: 1rem;
@@ -981,18 +1004,44 @@ iframe {
 }
 
 
+/* Styling for footer */
+
+.footer {
+  list-style-type: none; /* no bullets */
+  font-family: Brandon Grotesque;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer ul li {
+  list-style-type: none; /* no bullets */
+  font-family: Brandon Grotesque;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
 
 
+/* Styling for press list */
 
+.press {
+  padding: 0;
+  margin: 0;
+}
 
+.press ul li {
+  list-style-type: none;
+}
 
-
-
-
-
-
-
-
+.press img {
+  padding: 1.25rem;
+  vertical-align: middle;
+}
 
 
 
