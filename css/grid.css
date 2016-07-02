@@ -147,8 +147,6 @@
 /*
 	Setting up break points and padding for Forms on checkout page
 */
-
-
 @media (min-width: 40em) {
 .grid-col-checkout-6of12left {
 	width: 50%;
@@ -166,8 +164,6 @@
 /*
 	Setting up break points and padding for reviews
 */
-
-
 @media (min-width: 50em) {
 .grid-col-review-6of12left {
 	width: 50%;
@@ -179,6 +175,23 @@
 .grid-col-review-6of12right {
 	width: 50%;
 	padding-right: 1.5em;
+}
+}
+
+/*
+	Setting up break points and padding for reviews
+*/
+@media (min-width: 68em) {
+.grid-col-product-7of12right {
+	width: 58.333%;
+	padding-right: 1.5em;
+}
+}
+
+@media (min-width: 68em) {
+.grid-col-product-4of12left {
+	width: 33.333%;
+	padding-left: 1.5em;
 }
 }
 
