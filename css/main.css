@@ -246,6 +246,7 @@ li {
   border-color: rgba(35, 7, 7, 0.16);
   border-width: 0.01em;
   text-decoration: none; /*setting to none removes underline from texts*/
+  z-index: 10;
 }
 
 .dropdown {
