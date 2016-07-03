@@ -1013,7 +1013,7 @@ iframe {
 
 .footer {
   list-style-type: none; /* no bullets */
-  font-family: Brandon Grotesque;
+  font-family: 'Brandon Grotesque';
   text-decoration: none;
   text-align: center;
   position: relative;
@@ -1023,7 +1023,7 @@ iframe {
 
 .footer ul li {
   list-style-type: none; /* no bullets */
-  font-family: Brandon Grotesque;
+  font-family: 'Brandon Grotesque';
   text-decoration: none;
   text-align: center;
   position: relative;
