@@ -7,6 +7,7 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	script src
 }
 
 /*
@@ -274,9 +275,6 @@
 	clear: both;
 }
 
-
-
-<script src="js/respond.min.js"></script>
 
 
 
